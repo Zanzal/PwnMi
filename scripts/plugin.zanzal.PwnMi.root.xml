@@ -34,98 +34,97 @@
 		<line linenr="008" indent="">
 			<comment>* ************************************************</comment>
 		</line>
-		<line linenr="009" indent="" />
-		<line linenr="010" indent="">
+		<line linenr="009" indent="">
 			<var>$pageid</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
-			<var>1337</var>
+			<var>8102</var>
 		</line>
-		<line linenr="011" indent="" />
-		<line linenr="012" indent="">
+		<line linenr="010" indent="" />
+		<line linenr="011" indent="">
 			<comment>* begin common submenu code</comment>
 		</line>
-		<line linenr="013" indent="">
+		<line linenr="012" indent="">
 			<var>$IDX_PRIVILEGE</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="014" indent="">
+		<line linenr="013" indent="">
 			<var>$IDX_SUSPICION</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="015" indent="">
+		<line linenr="014" indent="">
 			<var>$IDX_SLUSH_FUND</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>2</var>
 		</line>
-		<line linenr="016" indent="">
+		<line linenr="015" indent="">
 			<var>$IDX_BALANCE</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>3</var>
 		</line>
-		<line linenr="017" indent="">
+		<line linenr="016" indent="">
 			<var>$IDX_ENDRAND</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>4</var>
 		</line>
-		<line linenr="018" indent="">
+		<line linenr="017" indent="">
 			<var>$IDX_TIER</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>5</var>
 		</line>
-		<line linenr="019" indent="">
+		<line linenr="018" indent="">
 			<var>$IDX_FAKEID</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>6</var>
 		</line>
-		<line linenr="020" indent="">
+		<line linenr="019" indent="">
 			<var>$IDX_FAKENAME</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>7</var>
 		</line>
-		<line linenr="021" indent="">
+		<line linenr="020" indent="">
 			<var>$IDX_INPROGRESS</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>8</var>
 		</line>
-		<line linenr="022" indent="">
+		<line linenr="021" indent="">
 			<var>$IDX_CLASS</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>9</var>
 		</line>
-		<line linenr="023" indent="" />
-		<line linenr="024" indent="">
+		<line linenr="022" indent="" />
+		<line linenr="023" indent="">
 			<var>$oplength</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>12</var>
 		</line>
-		<line linenr="025" indent="" />
-		<line linenr="026" indent="">
+		<line linenr="024" indent="" />
+		<line linenr="025" indent="">
 			<var>$target.sector</var>
 			<text> </text>
 			<text>=</text>
@@ -137,7 +136,7 @@
 			<text> </text>
 			<text>sector</text>
 		</line>
-		<line linenr="027" indent="">
+		<line linenr="026" indent="">
 			<var>$target.name</var>
 			<text> </text>
 			<text>=</text>
@@ -149,7 +148,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="028" indent="">
+		<line linenr="027" indent="">
 			<var>$target.owner</var>
 			<text> </text>
 			<text>=</text>
@@ -163,8 +162,8 @@
 			<text> </text>
 			<text>race</text>
 		</line>
-		<line linenr="029" indent="" />
-		<line linenr="030" indent="" interruptable="@">
+		<line linenr="028" indent="" />
+		<line linenr="029" indent="" interruptable="@">
 			<text>skip</text>
 			<text> </text>
 			<text>if</text>
@@ -192,16 +191,16 @@
 			<text>=</text>
 			<var>[TRUE]</var>
 		</line>
-		<line linenr="031" indent="&#160;">
+		<line linenr="030" indent="&#160;">
 			<text>return</text>
 			<text> </text>
 			<var>[TRUE]</var>
 		</line>
-		<line linenr="032" indent="" />
-		<line linenr="033" indent="">
+		<line linenr="031" indent="" />
+		<line linenr="032" indent="">
 			<comment>* plugin settings</comment>
 		</line>
-		<line linenr="034" indent="">
+		<line linenr="033" indent="">
 			<var>$plugin.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -217,7 +216,7 @@
 			<text>=</text>
 			<text>'al.plugin.zanzal.PwnMi.main'</text>
 		</line>
-		<line linenr="035" indent="">
+		<line linenr="034" indent="">
 			<var>$hackerrank</var>
 			<text> </text>
 			<text>=</text>
@@ -227,15 +226,15 @@
 			<var>2</var>
 			<text>]</text>
 		</line>
-		<line linenr="036" indent="">
+		<line linenr="035" indent="">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="037" indent="" />
-		<line linenr="038" indent="">
+		<line linenr="036" indent="" />
+		<line linenr="037" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$hackerrank</var>
@@ -244,7 +243,7 @@
 			<text> </text>
 			<var>3</var>
 		</line>
-		<line linenr="039" indent="&#160;">
+		<line linenr="038" indent="&#160;">
 			<var>$hackergrade</var>
 			<text> </text>
 			<text>=</text>
@@ -262,7 +261,7 @@
 			<text>=</text>
 			<var>21</var>
 		</line>
-		<line linenr="040" indent="">
+		<line linenr="039" indent="">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -273,7 +272,7 @@
 			<text> </text>
 			<var>2</var>
 		</line>
-		<line linenr="041" indent="&#160;">
+		<line linenr="040" indent="&#160;">
 			<var>$hackergrade</var>
 			<text> </text>
 			<text>=</text>
@@ -291,7 +290,7 @@
 			<text>=</text>
 			<var>22</var>
 		</line>
-		<line linenr="042" indent="">
+		<line linenr="041" indent="">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -302,7 +301,7 @@
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="043" indent="&#160;">
+		<line linenr="042" indent="&#160;">
 			<var>$hackergrade</var>
 			<text> </text>
 			<text>=</text>
@@ -320,10 +319,10 @@
 			<text>=</text>
 			<var>23</var>
 		</line>
-		<line linenr="044" indent="">
+		<line linenr="043" indent="">
 			<text>else</text>
 		</line>
-		<line linenr="045" indent="&#160;">
+		<line linenr="044" indent="&#160;">
 			<var>$hackergrade</var>
 			<text> </text>
 			<text>=</text>
@@ -341,11 +340,11 @@
 			<text>=</text>
 			<var>24</var>
 		</line>
-		<line linenr="046" indent="">
+		<line linenr="045" indent="">
 			<text>end</text>
 		</line>
-		<line linenr="047" indent="" />
-		<line linenr="048" indent="">
+		<line linenr="046" indent="" />
+		<line linenr="047" indent="">
 			<var>$result.success</var>
 			<text> </text>
 			<text>=</text>
@@ -363,7 +362,7 @@
 			<text>=</text>
 			<var>49</var>
 		</line>
-		<line linenr="049" indent="">
+		<line linenr="048" indent="">
 			<var>$result.partsuccess</var>
 			<text> </text>
 			<text>=</text>
@@ -381,7 +380,7 @@
 			<text>=</text>
 			<var>50</var>
 		</line>
-		<line linenr="050" indent="">
+		<line linenr="049" indent="">
 			<var>$result.failure</var>
 			<text> </text>
 			<text>=</text>
@@ -399,9 +398,9 @@
 			<text>=</text>
 			<var>51</var>
 		</line>
+		<line linenr="050" indent="" />
 		<line linenr="051" indent="" />
-		<line linenr="052" indent="" />
-		<line linenr="053" indent="" interruptable="@">
+		<line linenr="052" indent="" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -421,7 +420,7 @@
 			<text>=</text>
 			<var>$target</var>
 		</line>
-		<line linenr="054" indent="">
+		<line linenr="053" indent="">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -431,7 +430,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="055" indent="">
+		<line linenr="054" indent="">
 			<var>$pl</var>
 			<text> </text>
 			<text>=</text>
@@ -441,7 +440,7 @@
 			<var>$IDX_PRIVILEGE</var>
 			<text>]</text>
 		</line>
-		<line linenr="056" indent="">
+		<line linenr="055" indent="">
 			<var>$sus</var>
 			<text> </text>
 			<text>=</text>
@@ -451,7 +450,7 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="057" indent="">
+		<line linenr="056" indent="">
 			<var>$susl</var>
 			<text> </text>
 			<text>=</text>
@@ -461,7 +460,7 @@
 			<var>1</var>
 			<text>]</text>
 		</line>
-		<line linenr="058" indent="">
+		<line linenr="057" indent="">
 			<var>$target.class</var>
 			<text> </text>
 			<text>=</text>
@@ -471,8 +470,8 @@
 			<var>$IDX_CLASS</var>
 			<text>]</text>
 		</line>
-		<line linenr="059" indent="" />
-		<line linenr="060" indent="">
+		<line linenr="058" indent="" />
+		<line linenr="059" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$target.class</var>
@@ -481,7 +480,7 @@
 			<text> </text>
 			<text>'shipyard'</text>
 		</line>
-		<line linenr="061" indent="&#160;">
+		<line linenr="060" indent="&#160;">
 			<var>$wares</var>
 			<text> </text>
 			<text>=</text>
@@ -501,7 +500,7 @@
 			<text> </text>
 			<text>station</text>
 		</line>
-		<line linenr="062" indent="&#160;">
+		<line linenr="061" indent="&#160;">
 			<var>$ship.menu</var>
 			<text> </text>
 			<text>=</text>
@@ -515,7 +514,7 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="063" indent="&#160;">
+		<line linenr="062" indent="&#160;">
 			<var>$shipdata</var>
 			<text> </text>
 			<text>=</text>
@@ -529,7 +528,7 @@
 			<text>=</text>
 			<var>4</var>
 		</line>
-		<line linenr="064" indent="&#160;">
+		<line linenr="063" indent="&#160;">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>0</var>
@@ -539,7 +538,7 @@
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="065" indent="&#160;">
+		<line linenr="064" indent="&#160;">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>1</var>
@@ -549,7 +548,7 @@
 			<text> </text>
 			<text>'Ship'</text>
 		</line>
-		<line linenr="066" indent="&#160;">
+		<line linenr="065" indent="&#160;">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>2</var>
@@ -559,7 +558,7 @@
 			<text> </text>
 			<var>-1</var>
 		</line>
-		<line linenr="067" indent="&#160;">
+		<line linenr="066" indent="&#160;">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>3</var>
@@ -569,7 +568,7 @@
 			<text> </text>
 			<text>'Value'</text>
 		</line>
-		<line linenr="068" indent="&#160;">
+		<line linenr="067" indent="&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -589,7 +588,7 @@
 			<text>=</text>
 			<var>$shipdata</var>
 		</line>
-		<line linenr="069" indent="&#160;&#160;">
+		<line linenr="068" indent="&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -599,7 +598,7 @@
 			<var>$IDX_ENDRAND</var>
 			<text>]</text>
 		</line>
-		<line linenr="070" indent="&#160;">
+		<line linenr="069" indent="&#160;">
 			<var>$credit</var>
 			<text> </text>
 			<text>=</text>
@@ -616,7 +615,7 @@
 			<text> </text>
 			<var>1000000</var>
 		</line>
-		<line linenr="071" indent="&#160;">
+		<line linenr="070" indent="&#160;">
 			<var>$credit</var>
 			<text> </text>
 			<text>=</text>
@@ -633,7 +632,7 @@
 			<var>1300</var>
 			<text>)</text>
 		</line>
-		<line linenr="072" indent="&#160;&#160;">
+		<line linenr="071" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$credit</var>
@@ -642,17 +641,17 @@
 			<text> </text>
 			<var>1500000</var>
 		</line>
-		<line linenr="073" indent="&#160;&#160;">
+		<line linenr="072" indent="&#160;&#160;">
 			<var>$credit</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>1500000</var>
 		</line>
-		<line linenr="074" indent="&#160;&#160;">
+		<line linenr="073" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="075" indent="&#160;&#160;&#160;">
+		<line linenr="074" indent="&#160;&#160;&#160;">
 			<var>$XS.Iterator1</var>
 			<text> </text>
 			<text>=</text>
@@ -665,17 +664,17 @@
 			<text> </text>
 			<var>$wares</var>
 		</line>
-		<line linenr="076" indent="&#160;&#160;&#160;">
+		<line linenr="075" indent="&#160;&#160;&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator1</var>
 		</line>
-		<line linenr="077" indent="&#160;&#160;&#160;">
+		<line linenr="076" indent="&#160;&#160;&#160;">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator1</var>
 		</line>
-		<line linenr="078" indent="&#160;&#160;&#160;">
+		<line linenr="077" indent="&#160;&#160;&#160;">
 			<var>$w</var>
 			<text> </text>
 			<text>=</text>
@@ -685,7 +684,7 @@
 			<var>$XS.Iterator1</var>
 			<text>]</text>
 		</line>
-		<line linenr="079" indent="&#160;&#160;">
+		<line linenr="078" indent="&#160;&#160;">
 			<var>$pr</var>
 			<text> </text>
 			<text>=</text>
@@ -703,7 +702,7 @@
 			<text> </text>
 			<var>$w</var>
 		</line>
-		<line linenr="080" indent="&#160;">
+		<line linenr="079" indent="&#160;">
 			<var>$mt</var>
 			<text> </text>
 			<text>=</text>
@@ -718,7 +717,7 @@
 			<text> </text>
 			<var>$w</var>
 		</line>
-		<line linenr="081" indent="">
+		<line linenr="080" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$pr</var>
@@ -735,7 +734,7 @@
 			<text> </text>
 			<var>7</var>
 		</line>
-		<line linenr="082" indent="">
+		<line linenr="081" indent="">
 			<var>$pr</var>
 			<text> </text>
 			<text>=</text>
@@ -750,7 +749,7 @@
 			<text> </text>
 			<text>string</text>
 		</line>
-		<line linenr="083" indent="">
+		<line linenr="082" indent="">
 			<var>$nm</var>
 			<text> </text>
 			<text>=</text>
@@ -777,7 +776,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="084" indent="">
+		<line linenr="083" indent="">
 			<var>$shipdata</var>
 			<text> </text>
 			<text>=</text>
@@ -791,7 +790,7 @@
 			<text>=</text>
 			<var>4</var>
 		</line>
-		<line linenr="085" indent="">
+		<line linenr="084" indent="">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>0</var>
@@ -801,7 +800,7 @@
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="086" indent="">
+		<line linenr="085" indent="">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>1</var>
@@ -811,7 +810,7 @@
 			<text> </text>
 			<var>$nm</var>
 		</line>
-		<line linenr="087" indent="">
+		<line linenr="086" indent="">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>2</var>
@@ -821,7 +820,7 @@
 			<text> </text>
 			<var>-1</var>
 		</line>
-		<line linenr="088" indent="">
+		<line linenr="087" indent="">
 			<var>$shipdata</var>
 			<text>[</text>
 			<var>3</var>
@@ -831,7 +830,7 @@
 			<text> </text>
 			<var>$pr</var>
 		</line>
-		<line linenr="089" indent="">
+		<line linenr="088" indent="">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -855,17 +854,17 @@
 			<text>=</text>
 			<var>$w</var>
 		</line>
+		<line linenr="089" indent="">
+			<text>end</text>
+		</line>
 		<line linenr="090" indent="">
 			<text>end</text>
 		</line>
 		<line linenr="091" indent="">
 			<text>end</text>
 		</line>
-		<line linenr="092" indent="">
-			<text>end</text>
-		</line>
-		<line linenr="093" indent="" />
-		<line linenr="094" indent="">
+		<line linenr="092" indent="" />
+		<line linenr="093" indent="">
 			<var>$PwnMi.menu.title</var>
 			<text> </text>
 			<text>=</text>
@@ -883,7 +882,7 @@
 			<text>=</text>
 			<var>3</var>
 		</line>
-		<line linenr="095" indent="">
+		<line linenr="094" indent="">
 			<var>$menu.header</var>
 			<text> </text>
 			<text>=</text>
@@ -895,8 +894,8 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="096" indent="" />
-		<line linenr="097" indent="">
+		<line linenr="095" indent="" />
+		<line linenr="096" indent="">
 			<var>$menu</var>
 			<text> </text>
 			<text>=</text>
@@ -909,8 +908,8 @@
 			<text> </text>
 			<text>array</text>
 		</line>
-		<line linenr="098" indent="&#160;" />
-		<line linenr="099" indent="&#160;">
+		<line linenr="097" indent="&#160;" />
+		<line linenr="098" indent="&#160;">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -928,7 +927,7 @@
 			<text>=</text>
 			<var>6</var>
 		</line>
-		<line linenr="100" indent="&#160;">
+		<line linenr="099" indent="&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -948,8 +947,8 @@
 			<text>=</text>
 			<var>$XStudio.Hidden</var>
 		</line>
-		<line linenr="101" indent="&#160;" />
-		<line linenr="102" indent="&#160;">
+		<line linenr="100" indent="&#160;" />
+		<line linenr="101" indent="&#160;">
 			<var>$pls</var>
 			<text> </text>
 			<text>=</text>
@@ -964,7 +963,7 @@
 			<text> </text>
 			<text>string</text>
 		</line>
-		<line linenr="103" indent="">
+		<line linenr="102" indent="">
 			<var>$st</var>
 			<text> </text>
 			<text>=</text>
@@ -995,7 +994,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="104" indent="">
+		<line linenr="103" indent="">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1017,11 +1016,11 @@
 			<text>=</text>
 			<var>$st</var>
 		</line>
-		<line linenr="105" indent="" />
-		<line linenr="106" indent="">
+		<line linenr="104" indent="" />
+		<line linenr="105" indent="">
 			<comment>* One option - Go back</comment>
 		</line>
-		<line linenr="107" indent="">
+		<line linenr="106" indent="">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1039,7 +1038,7 @@
 			<text>=</text>
 			<var>35</var>
 		</line>
-		<line linenr="108" indent="">
+		<line linenr="107" indent="">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1063,8 +1062,8 @@
 			<text>=</text>
 			<var>-1</var>
 		</line>
-		<line linenr="109" indent="" />
-		<line linenr="110" indent="">
+		<line linenr="108" indent="" />
+		<line linenr="109" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$target.class</var>
@@ -1089,10 +1088,10 @@
 			<text> </text>
 			<text>'trade'</text>
 		</line>
-		<line linenr="111" indent="&#160;">
+		<line linenr="110" indent="&#160;">
 			<comment>* Station Flip</comment>
 		</line>
-		<line linenr="112" indent="&#160;">
+		<line linenr="111" indent="&#160;">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1110,7 +1109,7 @@
 			<text>=</text>
 			<var>112</var>
 		</line>
-		<line linenr="113" indent="&#160;&#160;">
+		<line linenr="112" indent="&#160;&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1134,11 +1133,11 @@
 			<text>=</text>
 			<var>1</var>
 		</line>
-		<line linenr="114" indent="&#160;" />
-		<line linenr="115" indent="">
+		<line linenr="113" indent="&#160;" />
+		<line linenr="114" indent="">
 			<comment>* Sector Flip</comment>
 		</line>
-		<line linenr="116" indent="&#160;">
+		<line linenr="115" indent="&#160;">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1156,7 +1155,7 @@
 			<text>=</text>
 			<var>110</var>
 		</line>
-		<line linenr="117" indent="&#160;">
+		<line linenr="116" indent="&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1180,13 +1179,13 @@
 			<text>=</text>
 			<var>2</var>
 		</line>
-		<line linenr="118" indent="">
+		<line linenr="117" indent="">
 			<text>end</text>
 		</line>
-		<line linenr="119" indent="&#160;">
+		<line linenr="118" indent="&#160;">
 			<comment>* Station Overload</comment>
 		</line>
-		<line linenr="120" indent="">
+		<line linenr="119" indent="">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1204,7 +1203,7 @@
 			<text>=</text>
 			<var>113</var>
 		</line>
-		<line linenr="121" indent="">
+		<line linenr="120" indent="">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1228,11 +1227,11 @@
 			<text>=</text>
 			<var>3</var>
 		</line>
-		<line linenr="122" indent="" />
-		<line linenr="123" indent="&#160;">
+		<line linenr="121" indent="" />
+		<line linenr="122" indent="&#160;">
 			<comment>* Sector Overload</comment>
 		</line>
-		<line linenr="124" indent="&#160;">
+		<line linenr="123" indent="&#160;">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1250,7 +1249,7 @@
 			<text>=</text>
 			<var>114</var>
 		</line>
-		<line linenr="125" indent="&#160;&#160;">
+		<line linenr="124" indent="&#160;&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1274,8 +1273,8 @@
 			<text>=</text>
 			<var>4</var>
 		</line>
-		<line linenr="126" indent="&#160;&#160;" />
-		<line linenr="127" indent="&#160;&#160;&#160;">
+		<line linenr="125" indent="&#160;&#160;" />
+		<line linenr="126" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$target.class</var>
@@ -1284,7 +1283,7 @@
 			<text> </text>
 			<text>'shipyard'</text>
 		</line>
-		<line linenr="128" indent="&#160;&#160;">
+		<line linenr="127" indent="&#160;&#160;">
 			<var>$c</var>
 			<text> </text>
 			<text>=</text>
@@ -1297,7 +1296,7 @@
 			<text> </text>
 			<var>$ship.menu</var>
 		</line>
-		<line linenr="129" indent="&#160;">
+		<line linenr="128" indent="&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$c</var>
@@ -1306,7 +1305,7 @@
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="130" indent="&#160;&#160;">
+		<line linenr="129" indent="&#160;&#160;">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1324,7 +1323,7 @@
 			<text>=</text>
 			<var>117</var>
 		</line>
-		<line linenr="131" indent="&#160;">
+		<line linenr="130" indent="&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1348,10 +1347,10 @@
 			<text>=</text>
 			<var>5</var>
 		</line>
-		<line linenr="132" indent="">
+		<line linenr="131" indent="">
 			<text>end</text>
 		</line>
-		<line linenr="133" indent="">
+		<line linenr="132" indent="">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -1362,7 +1361,7 @@
 			<text> </text>
 			<text>'eqdock'</text>
 		</line>
-		<line linenr="134" indent="">
+		<line linenr="133" indent="">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1380,7 +1379,7 @@
 			<text>=</text>
 			<var>118</var>
 		</line>
-		<line linenr="135" indent="&#160;">
+		<line linenr="134" indent="&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1404,7 +1403,7 @@
 			<text>=</text>
 			<var>6</var>
 		</line>
-		<line linenr="136" indent="&#160;">
+		<line linenr="135" indent="&#160;">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1422,7 +1421,7 @@
 			<text>=</text>
 			<var>119</var>
 		</line>
-		<line linenr="137" indent="&#160;">
+		<line linenr="136" indent="&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1446,7 +1445,7 @@
 			<text>=</text>
 			<var>7</var>
 		</line>
-		<line linenr="138" indent="&#160;">
+		<line linenr="137" indent="&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -1457,7 +1456,7 @@
 			<text> </text>
 			<text>'military'</text>
 		</line>
-		<line linenr="139" indent="&#160;">
+		<line linenr="138" indent="&#160;">
 			<var>$XStudio.Hidden</var>
 			<text> </text>
 			<text>=</text>
@@ -1475,7 +1474,7 @@
 			<text>=</text>
 			<var>120</var>
 		</line>
-		<line linenr="140" indent="&#160;&#160;">
+		<line linenr="139" indent="&#160;&#160;">
 			<text>add</text>
 			<text> </text>
 			<text>custom</text>
@@ -1499,16 +1498,16 @@
 			<text>=</text>
 			<var>8</var>
 		</line>
-		<line linenr="141" indent="&#160;&#160;">
+		<line linenr="140" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="142" indent="&#160;&#160;" />
-		<line linenr="143" indent="&#160;&#160;&#160;">
+		<line linenr="141" indent="&#160;&#160;" />
+		<line linenr="142" indent="&#160;&#160;&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>[TRUE]</var>
 		</line>
-		<line linenr="144" indent="&#160;&#160;&#160;">
+		<line linenr="143" indent="&#160;&#160;&#160;">
 			<var>$menu.choice</var>
 			<text> </text>
 			<text>=</text>
@@ -1534,7 +1533,7 @@
 			<text>=</text>
 			<var>$menu</var>
 		</line>
-		<line linenr="145" indent="&#160;&#160;&#160;">
+		<line linenr="144" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$menu.choice</var>
@@ -1543,7 +1542,7 @@
 			<text> </text>
 			<var>5</var>
 		</line>
-		<line linenr="146" indent="&#160;&#160;&#160;">
+		<line linenr="145" indent="&#160;&#160;&#160;">
 			<var>$ship.choice</var>
 			<text> </text>
 			<text>=</text>
@@ -1569,7 +1568,7 @@
 			<text>=</text>
 			<var>$ship.menu</var>
 		</line>
-		<line linenr="147" indent="&#160;&#160;&#160;">
+		<line linenr="146" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$ship.choice</var>
@@ -1578,26 +1577,26 @@
 			<text> </text>
 			<var>-1</var>
 		</line>
-		<line linenr="148" indent="&#160;&#160;&#160;">
+		<line linenr="147" indent="&#160;&#160;&#160;">
 			<text>break</text>
 		</line>
-		<line linenr="149" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="148" indent="&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="150" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="149" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="151" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="150" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>break</text>
 		</line>
-		<line linenr="152" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="151" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="153" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="152" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="154" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="155" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="153" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="154" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$menu.choice</var>
@@ -1606,7 +1605,7 @@
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="156" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="155" indent="&#160;&#160;&#160;&#160;">
 			<var>$target.sector</var>
 			<text> </text>
 			<text>=</text>
@@ -1618,7 +1617,7 @@
 			<text> </text>
 			<text>sector</text>
 		</line>
-		<line linenr="157" indent="&#160;&#160;&#160;">
+		<line linenr="156" indent="&#160;&#160;&#160;">
 			<var>$target.list</var>
 			<text> </text>
 			<text>=</text>
@@ -1632,7 +1631,7 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="158" indent="&#160;&#160;">
+		<line linenr="157" indent="&#160;&#160;">
 			<var>$locked.list</var>
 			<text> </text>
 			<text>=</text>
@@ -1646,8 +1645,8 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="159" indent="&#160;" />
-		<line linenr="160" indent="&#160;&#160;">
+		<line linenr="158" indent="&#160;" />
+		<line linenr="159" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$menu.choice</var>
@@ -1664,10 +1663,10 @@
 			<text> </text>
 			<var>4</var>
 		</line>
-		<line linenr="161" indent="&#160;">
+		<line linenr="160" indent="&#160;">
 			<comment>* Stations</comment>
 		</line>
-		<line linenr="162" indent="&#160;">
+		<line linenr="161" indent="&#160;">
 			<var>$stations</var>
 			<text> </text>
 			<text>=</text>
@@ -1685,7 +1684,7 @@
 			<text> </text>
 			<text>sector</text>
 		</line>
-		<line linenr="163" indent="&#160;">
+		<line linenr="162" indent="&#160;">
 			<var>$XS.Iterator2</var>
 			<text> </text>
 			<text>=</text>
@@ -1698,17 +1697,17 @@
 			<text> </text>
 			<var>$stations</var>
 		</line>
-		<line linenr="164" indent="&#160;">
+		<line linenr="163" indent="&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator2</var>
 		</line>
-		<line linenr="165" indent="&#160;&#160;">
+		<line linenr="164" indent="&#160;&#160;">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator2</var>
 		</line>
-		<line linenr="166" indent="&#160;&#160;">
+		<line linenr="165" indent="&#160;&#160;">
 			<var>$station</var>
 			<text> </text>
 			<text>=</text>
@@ -1718,7 +1717,7 @@
 			<var>$XS.Iterator2</var>
 			<text>]</text>
 		</line>
-		<line linenr="167" indent="&#160;&#160;" interruptable="@">
+		<line linenr="166" indent="&#160;&#160;" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -1738,7 +1737,7 @@
 			<text>=</text>
 			<var>$station</var>
 		</line>
-		<line linenr="168" indent="&#160;&#160;&#160;">
+		<line linenr="167" indent="&#160;&#160;&#160;">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -1748,7 +1747,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="169" indent="&#160;&#160;&#160;">
+		<line linenr="168" indent="&#160;&#160;&#160;">
 			<var>$station.pl</var>
 			<text> </text>
 			<text>=</text>
@@ -1758,7 +1757,7 @@
 			<var>$IDX_PRIVILEGE</var>
 			<text>]</text>
 		</line>
-		<line linenr="170" indent="&#160;&#160;&#160;">
+		<line linenr="169" indent="&#160;&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -1768,7 +1767,7 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="171" indent="&#160;&#160;&#160;">
+		<line linenr="170" indent="&#160;&#160;&#160;">
 			<var>$station.class</var>
 			<text> </text>
 			<text>=</text>
@@ -1778,7 +1777,7 @@
 			<var>$IDX_CLASS</var>
 			<text>]</text>
 		</line>
-		<line linenr="172" indent="&#160;&#160;&#160;">
+		<line linenr="171" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.pl</var>
@@ -1795,7 +1794,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="173" indent="&#160;&#160;&#160;">
+		<line linenr="172" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$menu.choice</var>
@@ -1804,10 +1803,10 @@
 			<text> </text>
 			<var>2</var>
 		</line>
-		<line linenr="174" indent="&#160;&#160;">
+		<line linenr="173" indent="&#160;&#160;">
 			<comment>* Flip station only for certain types.</comment>
 		</line>
-		<line linenr="175" indent="&#160;&#160;&#160;">
+		<line linenr="174" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.class</var>
@@ -1832,7 +1831,7 @@
 			<text> </text>
 			<text>'trade'</text>
 		</line>
-		<line linenr="176" indent="&#160;&#160;&#160;">
+		<line linenr="175" indent="&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$station</var>
@@ -1843,13 +1842,13 @@
 			<text> </text>
 			<var>$target.list</var>
 		</line>
-		<line linenr="177" indent="&#160;&#160;">
+		<line linenr="176" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="178" indent="&#160;">
+		<line linenr="177" indent="&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="179" indent="&#160;">
+		<line linenr="178" indent="&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$station</var>
@@ -1859,20 +1858,20 @@
 			<text>array</text>
 			<text> </text>
 			<var>$target.list</var>
+		</line>
+		<line linenr="179" indent="&#160;">
+			<text>end</text>
 		</line>
 		<line linenr="180" indent="&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="181" indent="&#160;">
+		<line linenr="181" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="182" indent="&#160;&#160;">
-			<text>end</text>
-		</line>
-		<line linenr="183" indent="&#160;">
+		<line linenr="182" indent="&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="184" indent="&#160;&#160;">
+		<line linenr="183" indent="&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$target</var>
@@ -1883,14 +1882,14 @@
 			<text> </text>
 			<var>$target.list</var>
 		</line>
-		<line linenr="185" indent="&#160;">
+		<line linenr="184" indent="&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="186" indent="&#160;" />
-		<line linenr="187" indent="&#160;">
+		<line linenr="185" indent="&#160;" />
+		<line linenr="186" indent="&#160;">
 			<comment>* Last step lets lock all the targets so commands cannot be executed against them.</comment>
 		</line>
-		<line linenr="188" indent="&#160;">
+		<line linenr="187" indent="&#160;">
 			<var>$XS.Iterator3</var>
 			<text> </text>
 			<text>=</text>
@@ -1903,17 +1902,17 @@
 			<text> </text>
 			<var>$target.list</var>
 		</line>
-		<line linenr="189" indent="&#160;&#160;">
+		<line linenr="188" indent="&#160;&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator3</var>
 		</line>
-		<line linenr="190" indent="&#160;&#160;">
+		<line linenr="189" indent="&#160;&#160;">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator3</var>
 		</line>
-		<line linenr="191" indent="&#160;&#160;">
+		<line linenr="190" indent="&#160;&#160;">
 			<var>$t</var>
 			<text> </text>
 			<text>=</text>
@@ -1923,7 +1922,7 @@
 			<var>$XS.Iterator3</var>
 			<text>]</text>
 		</line>
-		<line linenr="192" indent="&#160;&#160;" interruptable="@">
+		<line linenr="191" indent="&#160;&#160;" interruptable="@">
 			<var>$t.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -1943,7 +1942,7 @@
 			<text>=</text>
 			<var>$t</var>
 		</line>
-		<line linenr="193" indent="&#160;&#160;">
+		<line linenr="192" indent="&#160;&#160;">
 			<var>$t.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -1953,7 +1952,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="194" indent="&#160;&#160;">
+		<line linenr="193" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$t.Vars</var>
@@ -1961,7 +1960,7 @@
 			<var>$IDX_INPROGRESS</var>
 			<text>]</text>
 		</line>
-		<line linenr="195" indent="&#160;">
+		<line linenr="194" indent="&#160;">
 			<var>$t.name</var>
 			<text> </text>
 			<text>=</text>
@@ -1973,7 +1972,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="196" indent="&#160;">
+		<line linenr="195" indent="&#160;">
 			<var>$msg</var>
 			<text> </text>
 			<text>=</text>
@@ -2004,7 +2003,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="197" indent="&#160;">
+		<line linenr="196" indent="&#160;">
 			<text>display</text>
 			<text> </text>
 			<text>subtitle</text>
@@ -2022,7 +2021,7 @@
 			<text> </text>
 			<text>ms</text>
 		</line>
-		<line linenr="198" indent="&#160;" interruptable="@">
+		<line linenr="197" indent="&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<text>speak</text>
@@ -2042,21 +2041,21 @@
 			<text>=</text>
 			<var>100</var>
 		</line>
-		<line linenr="199" indent="&#160;">
+		<line linenr="198" indent="&#160;">
 			<text>gosub</text>
 			<text> </text>
 			<var>cleanup</var>
 			<text>:</text>
 		</line>
-		<line linenr="200" indent="&#160;">
+		<line linenr="199" indent="&#160;">
 			<text>return</text>
 			<text> </text>
 			<var>[TRUE]</var>
 		</line>
-		<line linenr="201" indent="&#160;">
+		<line linenr="200" indent="&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="202" indent="&#160;">
+		<line linenr="201" indent="&#160;">
 			<var>$t.Vars</var>
 			<text>[</text>
 			<var>$IDX_INPROGRESS</var>
@@ -2066,7 +2065,7 @@
 			<text> </text>
 			<var>[TRUE]</var>
 		</line>
-		<line linenr="203" indent="&#160;">
+		<line linenr="202" indent="&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$t</var>
@@ -2077,17 +2076,17 @@
 			<text> </text>
 			<var>$locked.list</var>
 		</line>
-		<line linenr="204" indent="&#160;">
+		<line linenr="203" indent="&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="205" indent="&#160;&#160;">
+		<line linenr="204" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="206" indent="&#160;&#160;" />
-		<line linenr="207" indent="&#160;&#160;">
+		<line linenr="205" indent="&#160;&#160;" />
+		<line linenr="206" indent="&#160;&#160;">
 			<comment>* Final ops are 10 minutes long.</comment>
 		</line>
-		<line linenr="208" indent="&#160;&#160;">
+		<line linenr="207" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$menu.choice</var>
@@ -2104,7 +2103,7 @@
 			<text> </text>
 			<var>8</var>
 		</line>
-		<line linenr="209" indent="&#160;&#160;">
+		<line linenr="208" indent="&#160;&#160;">
 			<var>$progress_message</var>
 			<text> </text>
 			<text>=</text>
@@ -2122,10 +2121,10 @@
 			<text>=</text>
 			<var>124</var>
 		</line>
-		<line linenr="210" indent="&#160;&#160;">
+		<line linenr="209" indent="&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="211" indent="&#160;&#160;">
+		<line linenr="210" indent="&#160;&#160;">
 			<var>$progress_message</var>
 			<text> </text>
 			<text>=</text>
@@ -2143,18 +2142,18 @@
 			<text>=</text>
 			<var>63</var>
 		</line>
-		<line linenr="212" indent="&#160;&#160;">
+		<line linenr="211" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="213" indent="&#160;&#160;" />
-		<line linenr="214" indent="&#160;&#160;">
+		<line linenr="212" indent="&#160;&#160;" />
+		<line linenr="213" indent="&#160;&#160;">
 			<var>$timer</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="215" indent="&#160;&#160;">
+		<line linenr="214" indent="&#160;&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$timer</var>
@@ -2163,7 +2162,7 @@
 			<text> </text>
 			<var>$oplength</var>
 		</line>
-		<line linenr="216" indent="&#160;&#160;&#160;">
+		<line linenr="215" indent="&#160;&#160;&#160;">
 			<var>$percent</var>
 			<text> </text>
 			<text>=</text>
@@ -2178,7 +2177,7 @@
 			<text> </text>
 			<var>$oplength</var>
 		</line>
-		<line linenr="217" indent="&#160;&#160;&#160;">
+		<line linenr="216" indent="&#160;&#160;&#160;">
 			<var>$percent</var>
 			<text> </text>
 			<text>=</text>
@@ -2193,7 +2192,7 @@
 			<text> </text>
 			<text>string</text>
 		</line>
-		<line linenr="218" indent="&#160;&#160;&#160;">
+		<line linenr="217" indent="&#160;&#160;&#160;">
 			<var>$msg</var>
 			<text> </text>
 			<text>=</text>
@@ -2220,7 +2219,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="219" indent="&#160;&#160;&#160;">
+		<line linenr="218" indent="&#160;&#160;&#160;">
 			<text>display</text>
 			<text> </text>
 			<text>subtitle</text>
@@ -2238,7 +2237,7 @@
 			<text> </text>
 			<text>ms</text>
 		</line>
-		<line linenr="220" indent="&#160;&#160;&#160;" interruptable="@">
+		<line linenr="219" indent="&#160;&#160;&#160;" interruptable="@">
 			<text>=</text>
 			<text> </text>
 			<text>wait</text>
@@ -2247,23 +2246,23 @@
 			<text> </text>
 			<text>ms</text>
 		</line>
-		<line linenr="221" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="220" indent="&#160;&#160;&#160;&#160;">
 			<text>inc</text>
 			<text> </text>
 			<var>$timer</var>
 		</line>
-		<line linenr="222" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="221" indent="&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="223" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="224" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="222" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="223" indent="&#160;&#160;&#160;&#160;">
 			<var>$percent</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<text>'100'</text>
 		</line>
-		<line linenr="225" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="224" indent="&#160;&#160;&#160;&#160;">
 			<var>$msg</var>
 			<text> </text>
 			<text>=</text>
@@ -2290,7 +2289,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="226" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="225" indent="&#160;&#160;&#160;&#160;">
 			<text>display</text>
 			<text> </text>
 			<text>subtitle</text>
@@ -2308,8 +2307,8 @@
 			<text> </text>
 			<text>ms</text>
 		</line>
-		<line linenr="227" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="228" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="226" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="227" indent="&#160;&#160;&#160;&#160;">
 			<var>$result.messages</var>
 			<text> </text>
 			<text>=</text>
@@ -2323,11 +2322,11 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="229" indent="&#160;&#160;&#160;" />
-		<line linenr="230" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="228" indent="&#160;&#160;&#160;" />
+		<line linenr="229" indent="&#160;&#160;&#160;&#160;">
 			<comment>* Waiting Period Finished: Execute command</comment>
 		</line>
-		<line linenr="231" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="230" indent="&#160;&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$menu.choice</var>
@@ -2336,10 +2335,10 @@
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="232" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="231" indent="&#160;&#160;&#160;&#160;">
 			<comment>* Station flip</comment>
 		</line>
-		<line linenr="233" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="232" indent="&#160;&#160;&#160;&#160;">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -2357,7 +2356,7 @@
 			<text>=</text>
 			<var>112</var>
 		</line>
-		<line linenr="234" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="233" indent="&#160;&#160;&#160;&#160;">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
@@ -2369,8 +2368,8 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="235" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="236" indent="&#160;&#160;&#160;&#160;" interruptable="@">
+		<line linenr="234" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="235" indent="&#160;&#160;&#160;&#160;" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -2390,7 +2389,7 @@
 			<text>=</text>
 			<var>$station</var>
 		</line>
-		<line linenr="237" indent="&#160;&#160;&#160;">
+		<line linenr="236" indent="&#160;&#160;&#160;">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -2400,7 +2399,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="238" indent="&#160;&#160;">
+		<line linenr="237" indent="&#160;&#160;">
 			<var>$station.pl</var>
 			<text> </text>
 			<text>=</text>
@@ -2410,7 +2409,7 @@
 			<var>$IDX_PRIVILEGE</var>
 			<text>]</text>
 		</line>
-		<line linenr="239" indent="&#160;&#160;">
+		<line linenr="238" indent="&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -2420,7 +2419,7 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="240" indent="&#160;&#160;">
+		<line linenr="239" indent="&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -2430,7 +2429,7 @@
 			<var>$IDX_ENDRAND</var>
 			<text>]</text>
 		</line>
-		<line linenr="241" indent="&#160;">
+		<line linenr="240" indent="&#160;">
 			<var>$station.race</var>
 			<text> </text>
 			<text>=</text>
@@ -2444,7 +2443,7 @@
 			<text> </text>
 			<text>race</text>
 		</line>
-		<line linenr="242" indent="&#160;&#160;">
+		<line linenr="241" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.pl</var>
@@ -2453,7 +2452,7 @@
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="243" indent="&#160;&#160;">
+		<line linenr="242" indent="&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -2464,7 +2463,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="244" indent="&#160;&#160;">
+		<line linenr="243" indent="&#160;&#160;">
 			<var>$station.tier</var>
 			<text> </text>
 			<text>=</text>
@@ -2474,7 +2473,7 @@
 			<var>$IDX_TIER</var>
 			<text>]</text>
 		</line>
-		<line linenr="245" indent="&#160;&#160;">
+		<line linenr="244" indent="&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -2495,8 +2494,8 @@
 			<text> </text>
 			<var>10</var>
 		</line>
-		<line linenr="246" indent="&#160;&#160;" />
-		<line linenr="247" indent="&#160;&#160;">
+		<line linenr="245" indent="&#160;&#160;" />
+		<line linenr="246" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.rand</var>
@@ -2505,13 +2504,13 @@
 			<text> </text>
 			<var>$station.sus</var>
 		</line>
-		<line linenr="248" indent="&#160;&#160;">
+		<line linenr="247" indent="&#160;&#160;">
 			<text>gosub</text>
 			<text> </text>
 			<var>claim_station</var>
 			<text>:</text>
 		</line>
-		<line linenr="249" indent="&#160;&#160;">
+		<line linenr="248" indent="&#160;&#160;">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
@@ -2528,7 +2527,7 @@
 			<var>1</var>
 			<text>)</text>
 		</line>
-		<line linenr="250" indent="&#160;&#160;&#160;" interruptable="@">
+		<line linenr="249" indent="&#160;&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>[THIS]</var>
@@ -2554,11 +2553,11 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="251" indent="&#160;&#160;&#160;" />
-		<line linenr="252" indent="&#160;&#160;&#160;">
+		<line linenr="250" indent="&#160;&#160;&#160;" />
+		<line linenr="251" indent="&#160;&#160;&#160;">
 			<comment>* Record success</comment>
 		</line>
-		<line linenr="253" indent="&#160;&#160;&#160;">
+		<line linenr="252" indent="&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -2570,7 +2569,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="254" indent="&#160;&#160;&#160;">
+		<line linenr="253" indent="&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -2585,7 +2584,7 @@
 			<text> </text>
 			<var>$result.success</var>
 		</line>
-		<line linenr="255" indent="&#160;&#160;&#160;">
+		<line linenr="254" indent="&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -2596,17 +2595,17 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="256" indent="&#160;&#160;&#160;">
+		<line linenr="255" indent="&#160;&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="257" indent="&#160;&#160;&#160;">
+		<line linenr="256" indent="&#160;&#160;&#160;">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>-10</var>
 		</line>
-		<line linenr="258" indent="&#160;&#160;&#160;&#160;" interruptable="@">
+		<line linenr="257" indent="&#160;&#160;&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>[THIS]</var>
@@ -2632,11 +2631,11 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="259" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="260" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="258" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="259" indent="&#160;&#160;&#160;&#160;">
 			<comment>* Record failure</comment>
 		</line>
-		<line linenr="261" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="260" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -2648,7 +2647,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="262" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="261" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -2663,7 +2662,7 @@
 			<text> </text>
 			<var>$result.failure</var>
 		</line>
-		<line linenr="263" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="262" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -2674,13 +2673,13 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
+		<line linenr="263" indent="&#160;&#160;&#160;&#160;&#160;">
+			<text>end</text>
+		</line>
 		<line linenr="264" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
 		<line linenr="265" indent="&#160;&#160;&#160;&#160;&#160;">
-			<text>end</text>
-		</line>
-		<line linenr="266" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.Vars</var>
 			<text>[</text>
 			<var>$IDX_SUSPICION</var>
@@ -2690,8 +2689,8 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="267" indent="&#160;&#160;&#160;&#160;&#160;" />
-		<line linenr="268" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="266" indent="&#160;&#160;&#160;&#160;&#160;" />
+		<line linenr="267" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -2702,10 +2701,10 @@
 			<text> </text>
 			<var>2</var>
 		</line>
-		<line linenr="269" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="268" indent="&#160;&#160;&#160;&#160;">
 			<comment>* Sector flip.</comment>
 		</line>
-		<line linenr="270" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="269" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$bonus</var>
 			<text> </text>
 			<text>=</text>
@@ -2718,7 +2717,7 @@
 			<text> </text>
 			<var>$locked.list</var>
 		</line>
-		<line linenr="271" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="270" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$bonus</var>
 			<text> </text>
 			<text>=</text>
@@ -2735,8 +2734,8 @@
 			<text> </text>
 			<var>3</var>
 		</line>
-		<line linenr="272" indent="&#160;&#160;&#160;&#160;&#160;" />
-		<line linenr="273" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="271" indent="&#160;&#160;&#160;&#160;&#160;" />
+		<line linenr="272" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -2754,7 +2753,7 @@
 			<text>=</text>
 			<var>110</var>
 		</line>
-		<line linenr="274" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="273" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
@@ -2766,8 +2765,8 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="275" indent="&#160;&#160;&#160;&#160;&#160;" />
-		<line linenr="276" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="274" indent="&#160;&#160;&#160;&#160;&#160;" />
+		<line linenr="275" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$XS.Iterator4</var>
 			<text> </text>
 			<text>=</text>
@@ -2780,17 +2779,17 @@
 			<text> </text>
 			<var>$locked.list</var>
 		</line>
-		<line linenr="277" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="276" indent="&#160;&#160;&#160;&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator4</var>
 		</line>
-		<line linenr="278" indent="&#160;&#160;&#160;">
+		<line linenr="277" indent="&#160;&#160;&#160;">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator4</var>
 		</line>
-		<line linenr="279" indent="&#160;&#160;&#160;">
+		<line linenr="278" indent="&#160;&#160;&#160;">
 			<var>$station</var>
 			<text> </text>
 			<text>=</text>
@@ -2800,7 +2799,7 @@
 			<var>$XS.Iterator4</var>
 			<text>]</text>
 		</line>
-		<line linenr="280" indent="&#160;&#160;" interruptable="@">
+		<line linenr="279" indent="&#160;&#160;" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -2820,7 +2819,7 @@
 			<text>=</text>
 			<var>$station</var>
 		</line>
-		<line linenr="281" indent="&#160;&#160;">
+		<line linenr="280" indent="&#160;&#160;">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -2830,7 +2829,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="282" indent="&#160;">
+		<line linenr="281" indent="&#160;">
 			<var>$station.pl</var>
 			<text> </text>
 			<text>=</text>
@@ -2840,7 +2839,7 @@
 			<var>$IDX_PRIVILEGE</var>
 			<text>]</text>
 		</line>
-		<line linenr="283" indent="&#160;&#160;">
+		<line linenr="282" indent="&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -2850,7 +2849,7 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="284" indent="&#160;&#160;">
+		<line linenr="283" indent="&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -2860,7 +2859,7 @@
 			<var>$IDX_ENDRAND</var>
 			<text>]</text>
 		</line>
-		<line linenr="285" indent="&#160;&#160;">
+		<line linenr="284" indent="&#160;&#160;">
 			<var>$station.tier</var>
 			<text> </text>
 			<text>=</text>
@@ -2870,7 +2869,7 @@
 			<var>$IDX_TIER</var>
 			<text>]</text>
 		</line>
-		<line linenr="286" indent="&#160;&#160;">
+		<line linenr="285" indent="&#160;&#160;">
 			<var>$station.race</var>
 			<text> </text>
 			<text>=</text>
@@ -2884,7 +2883,7 @@
 			<text> </text>
 			<text>race</text>
 		</line>
-		<line linenr="287" indent="&#160;&#160;">
+		<line linenr="286" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.pl</var>
@@ -2893,7 +2892,7 @@
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="288" indent="&#160;&#160;">
+		<line linenr="287" indent="&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -2904,7 +2903,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="289" indent="&#160;&#160;">
+		<line linenr="288" indent="&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -2929,7 +2928,7 @@
 			<text> </text>
 			<var>$bonus</var>
 		</line>
-		<line linenr="290" indent="&#160;&#160;">
+		<line linenr="289" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.rand</var>
@@ -2938,13 +2937,13 @@
 			<text> </text>
 			<var>$station.sus</var>
 		</line>
-		<line linenr="291" indent="&#160;&#160;">
+		<line linenr="290" indent="&#160;&#160;">
 			<text>gosub</text>
 			<text> </text>
 			<var>claim_station</var>
 			<text>:</text>
 		</line>
-		<line linenr="292" indent="&#160;&#160;">
+		<line linenr="291" indent="&#160;&#160;">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
@@ -2961,7 +2960,7 @@
 			<var>1</var>
 			<text>)</text>
 		</line>
-		<line linenr="293" indent="&#160;&#160;" interruptable="@">
+		<line linenr="292" indent="&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>[THIS]</var>
@@ -2987,11 +2986,11 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="294" indent="&#160;&#160;&#160;" />
-		<line linenr="295" indent="&#160;&#160;&#160;">
+		<line linenr="293" indent="&#160;&#160;&#160;" />
+		<line linenr="294" indent="&#160;&#160;&#160;">
 			<comment>* Record success</comment>
 		</line>
-		<line linenr="296" indent="&#160;&#160;&#160;">
+		<line linenr="295" indent="&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3003,7 +3002,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="297" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="296" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3018,7 +3017,7 @@
 			<text> </text>
 			<var>$result.success</var>
 		</line>
-		<line linenr="298" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="297" indent="&#160;&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -3029,17 +3028,17 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="299" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="298" indent="&#160;&#160;&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="300" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="299" indent="&#160;&#160;&#160;&#160;">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>-10</var>
 		</line>
-		<line linenr="301" indent="&#160;&#160;&#160;&#160;" interruptable="@">
+		<line linenr="300" indent="&#160;&#160;&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>[THIS]</var>
@@ -3065,11 +3064,11 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="302" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="303" indent="&#160;&#160;&#160;">
+		<line linenr="301" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="302" indent="&#160;&#160;&#160;">
 			<comment>* Record failure</comment>
 		</line>
-		<line linenr="304" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="303" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3081,7 +3080,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="305" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="304" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3096,7 +3095,7 @@
 			<text> </text>
 			<var>$result.failure</var>
 		</line>
-		<line linenr="306" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="305" indent="&#160;&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -3107,13 +3106,13 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
+		<line linenr="306" indent="&#160;&#160;&#160;&#160;">
+			<text>end</text>
+		</line>
 		<line linenr="307" indent="&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
 		<line linenr="308" indent="&#160;&#160;&#160;&#160;">
-			<text>end</text>
-		</line>
-		<line linenr="309" indent="&#160;&#160;&#160;&#160;">
 			<var>$station.Vars</var>
 			<text>[</text>
 			<var>$IDX_SUSPICION</var>
@@ -3123,11 +3122,11 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="310" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="309" indent="&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="311" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="312" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="310" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="311" indent="&#160;&#160;&#160;&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -3138,10 +3137,10 @@
 			<text> </text>
 			<var>3</var>
 		</line>
-		<line linenr="313" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="312" indent="&#160;&#160;&#160;&#160;&#160;">
 			<comment>* Station self destruct</comment>
 		</line>
-		<line linenr="314" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="313" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -3159,7 +3158,7 @@
 			<text>=</text>
 			<var>113</var>
 		</line>
-		<line linenr="315" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="314" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
@@ -3171,8 +3170,8 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="316" indent="&#160;&#160;&#160;&#160;&#160;" />
-		<line linenr="317" indent="&#160;&#160;&#160;&#160;&#160;" interruptable="@">
+		<line linenr="315" indent="&#160;&#160;&#160;&#160;&#160;" />
+		<line linenr="316" indent="&#160;&#160;&#160;&#160;&#160;" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -3192,7 +3191,7 @@
 			<text>=</text>
 			<var>$station</var>
 		</line>
-		<line linenr="318" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="317" indent="&#160;&#160;&#160;&#160;">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -3202,7 +3201,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="319" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="318" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.pl</var>
 			<text> </text>
 			<text>=</text>
@@ -3212,7 +3211,7 @@
 			<var>$IDX_PRIVILEGE</var>
 			<text>]</text>
 		</line>
-		<line linenr="320" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="319" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -3222,7 +3221,7 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="321" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="320" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -3232,7 +3231,7 @@
 			<var>$IDX_ENDRAND</var>
 			<text>]</text>
 		</line>
-		<line linenr="322" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="321" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.race</var>
 			<text> </text>
 			<text>=</text>
@@ -3246,7 +3245,7 @@
 			<text> </text>
 			<text>race</text>
 		</line>
-		<line linenr="323" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="322" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.pl</var>
@@ -3255,7 +3254,7 @@
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="324" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="323" indent="&#160;&#160;&#160;&#160;">
 			<var>$station.Vars</var>
 			<text>[</text>
 			<var>$IDX_SUSPICION</var>
@@ -3265,7 +3264,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="325" indent="&#160;&#160;&#160;">
+		<line linenr="324" indent="&#160;&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -3276,7 +3275,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="326" indent="&#160;&#160;">
+		<line linenr="325" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.rand</var>
@@ -3291,7 +3290,7 @@
 			<var>25</var>
 			<text>)</text>
 		</line>
-		<line linenr="327" indent="&#160;&#160;">
+		<line linenr="326" indent="&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -3313,11 +3312,11 @@
 			<text>=</text>
 			<var>[FALSE]</var>
 		</line>
-		<line linenr="328" indent="&#160;" />
-		<line linenr="329" indent="&#160;&#160;">
+		<line linenr="327" indent="&#160;" />
+		<line linenr="328" indent="&#160;&#160;">
 			<comment>* Record success</comment>
 		</line>
-		<line linenr="330" indent="&#160;&#160;">
+		<line linenr="329" indent="&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3329,7 +3328,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="331" indent="&#160;&#160;">
+		<line linenr="330" indent="&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3344,7 +3343,7 @@
 			<text> </text>
 			<var>$result.success</var>
 		</line>
-		<line linenr="332" indent="&#160;&#160;">
+		<line linenr="331" indent="&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -3355,17 +3354,17 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="333" indent="&#160;&#160;">
+		<line linenr="332" indent="&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="334" indent="&#160;&#160;&#160;">
+		<line linenr="333" indent="&#160;&#160;&#160;">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>-10</var>
 		</line>
-		<line linenr="335" indent="&#160;&#160;&#160;" interruptable="@">
+		<line linenr="334" indent="&#160;&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>[THIS]</var>
@@ -3391,8 +3390,8 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="336" indent="&#160;&#160;&#160;" />
-		<line linenr="337" indent="&#160;&#160;&#160;">
+		<line linenr="335" indent="&#160;&#160;&#160;" />
+		<line linenr="336" indent="&#160;&#160;&#160;">
 			<var>$max_hull</var>
 			<text> </text>
 			<text>=</text>
@@ -3406,7 +3405,7 @@
 			<text> </text>
 			<text>hull</text>
 		</line>
-		<line linenr="338" indent="&#160;&#160;&#160;">
+		<line linenr="337" indent="&#160;&#160;&#160;">
 			<var>$min_dmg</var>
 			<text> </text>
 			<text>=</text>
@@ -3417,7 +3416,7 @@
 			<text> </text>
 			<var>4</var>
 		</line>
-		<line linenr="339" indent="&#160;&#160;&#160;">
+		<line linenr="338" indent="&#160;&#160;&#160;">
 			<var>$random</var>
 			<text> </text>
 			<text>=</text>
@@ -3434,7 +3433,7 @@
 			<text> </text>
 			<var>$max_hull</var>
 		</line>
-		<line linenr="340" indent="&#160;&#160;&#160;">
+		<line linenr="339" indent="&#160;&#160;&#160;">
 			<var>$hull</var>
 			<text> </text>
 			<text>=</text>
@@ -3446,7 +3445,7 @@
 			<text> </text>
 			<text>hull</text>
 		</line>
-		<line linenr="341" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="340" indent="&#160;&#160;&#160;&#160;">
 			<var>$hull</var>
 			<text> </text>
 			<text>=</text>
@@ -3457,7 +3456,7 @@
 			<text> </text>
 			<var>$random</var>
 		</line>
-		<line linenr="342" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="341" indent="&#160;&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$hull</var>
@@ -3466,7 +3465,7 @@
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="343" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="342" indent="&#160;&#160;&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -3478,10 +3477,10 @@
 			<text> </text>
 			<var>$hull</var>
 		</line>
-		<line linenr="344" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="343" indent="&#160;&#160;&#160;&#160;&#160;">
 			<comment>* Record failure</comment>
 		</line>
-		<line linenr="345" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="344" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3493,7 +3492,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="346" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="345" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3508,7 +3507,7 @@
 			<text> </text>
 			<var>$result.failure</var>
 		</line>
-		<line linenr="347" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="346" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -3519,13 +3518,13 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="348" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="347" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="349" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="348" indent="&#160;&#160;&#160;&#160;&#160;">
 			<comment>* Record success</comment>
 		</line>
-		<line linenr="350" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="349" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3537,7 +3536,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="351" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="350" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3552,7 +3551,7 @@
 			<text> </text>
 			<var>$result.success</var>
 		</line>
-		<line linenr="352" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="351" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -3563,7 +3562,7 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="353" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="352" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -3585,17 +3584,17 @@
 			<text>=</text>
 			<var>[FALSE]</var>
 		</line>
+		<line linenr="353" indent="&#160;&#160;&#160;&#160;&#160;">
+			<text>end</text>
+		</line>
 		<line linenr="354" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
 		<line linenr="355" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="356" indent="&#160;&#160;&#160;&#160;&#160;">
-			<text>end</text>
-		</line>
-		<line linenr="357" indent="&#160;&#160;&#160;&#160;&#160;" />
-		<line linenr="358" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="356" indent="&#160;&#160;&#160;&#160;&#160;" />
+		<line linenr="357" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -3606,10 +3605,10 @@
 			<text> </text>
 			<var>4</var>
 		</line>
-		<line linenr="359" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="358" indent="&#160;&#160;&#160;&#160;&#160;">
 			<comment>* Sector wide - self destruct</comment>
 		</line>
-		<line linenr="360" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="359" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -3627,7 +3626,7 @@
 			<text>=</text>
 			<var>114</var>
 		</line>
-		<line linenr="361" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="360" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
@@ -3639,8 +3638,8 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="362" indent="&#160;&#160;&#160;&#160;&#160;&#160;" />
-		<line linenr="363" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="361" indent="&#160;&#160;&#160;&#160;&#160;&#160;" />
+		<line linenr="362" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<var>$XS.Iterator5</var>
 			<text> </text>
 			<text>=</text>
@@ -3653,17 +3652,17 @@
 			<text> </text>
 			<var>$locked.list</var>
 		</line>
-		<line linenr="364" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="363" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator5</var>
 		</line>
-		<line linenr="365" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="364" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator5</var>
 		</line>
-		<line linenr="366" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="365" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<var>$station</var>
 			<text> </text>
 			<text>=</text>
@@ -3673,7 +3672,7 @@
 			<var>$XS.Iterator5</var>
 			<text>]</text>
 		</line>
-		<line linenr="367" indent="&#160;&#160;&#160;&#160;&#160;&#160;" interruptable="@">
+		<line linenr="366" indent="&#160;&#160;&#160;&#160;&#160;&#160;" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -3693,7 +3692,7 @@
 			<text>=</text>
 			<var>$station</var>
 		</line>
-		<line linenr="368" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="367" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -3703,7 +3702,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="369" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="368" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.pl</var>
 			<text> </text>
 			<text>=</text>
@@ -3713,7 +3712,7 @@
 			<var>$IDX_PRIVILEGE</var>
 			<text>]</text>
 		</line>
-		<line linenr="370" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="369" indent="&#160;&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -3723,7 +3722,7 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="371" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="370" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -3733,7 +3732,7 @@
 			<var>$IDX_ENDRAND</var>
 			<text>]</text>
 		</line>
-		<line linenr="372" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="371" indent="&#160;&#160;&#160;&#160;">
 			<var>$station.race</var>
 			<text> </text>
 			<text>=</text>
@@ -3747,7 +3746,7 @@
 			<text> </text>
 			<text>race</text>
 		</line>
-		<line linenr="373" indent="&#160;&#160;&#160;">
+		<line linenr="372" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.pl</var>
@@ -3756,7 +3755,7 @@
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="374" indent="&#160;&#160;">
+		<line linenr="373" indent="&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -3767,7 +3766,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="375" indent="&#160;">
+		<line linenr="374" indent="&#160;">
 			<var>$station.Vars</var>
 			<text>[</text>
 			<var>$IDX_SUSPICION</var>
@@ -3777,7 +3776,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="376" indent="&#160;&#160;">
+		<line linenr="375" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.rand</var>
@@ -3792,10 +3791,10 @@
 			<var>25</var>
 			<text>)</text>
 		</line>
-		<line linenr="377" indent="&#160;&#160;">
+		<line linenr="376" indent="&#160;&#160;">
 			<comment>* Record success</comment>
 		</line>
-		<line linenr="378" indent="&#160;&#160;">
+		<line linenr="377" indent="&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3807,7 +3806,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="379" indent="&#160;&#160;">
+		<line linenr="378" indent="&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3822,7 +3821,7 @@
 			<text> </text>
 			<var>$result.success</var>
 		</line>
-		<line linenr="380" indent="&#160;&#160;">
+		<line linenr="379" indent="&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -3833,8 +3832,8 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="381" indent="&#160;&#160;&#160;" />
-		<line linenr="382" indent="&#160;&#160;&#160;">
+		<line linenr="380" indent="&#160;&#160;&#160;" />
+		<line linenr="381" indent="&#160;&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -3856,17 +3855,17 @@
 			<text>=</text>
 			<var>[FALSE]</var>
 		</line>
-		<line linenr="383" indent="&#160;&#160;&#160;">
+		<line linenr="382" indent="&#160;&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="384" indent="&#160;&#160;&#160;">
+		<line linenr="383" indent="&#160;&#160;&#160;">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>-10</var>
 		</line>
-		<line linenr="385" indent="&#160;&#160;&#160;&#160;" interruptable="@">
+		<line linenr="384" indent="&#160;&#160;&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>[THIS]</var>
@@ -3892,8 +3891,8 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="386" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="387" indent="&#160;&#160;&#160;">
+		<line linenr="385" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="386" indent="&#160;&#160;&#160;">
 			<var>$max_hull</var>
 			<text> </text>
 			<text>=</text>
@@ -3907,7 +3906,7 @@
 			<text> </text>
 			<text>hull</text>
 		</line>
-		<line linenr="388" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="387" indent="&#160;&#160;&#160;&#160;">
 			<var>$min_dmg</var>
 			<text> </text>
 			<text>=</text>
@@ -3918,7 +3917,7 @@
 			<text> </text>
 			<var>4</var>
 		</line>
-		<line linenr="389" indent="&#160;&#160;&#160;">
+		<line linenr="388" indent="&#160;&#160;&#160;">
 			<var>$random</var>
 			<text> </text>
 			<text>=</text>
@@ -3935,7 +3934,7 @@
 			<text> </text>
 			<var>$max_hull</var>
 		</line>
-		<line linenr="390" indent="&#160;&#160;&#160;">
+		<line linenr="389" indent="&#160;&#160;&#160;">
 			<var>$hull</var>
 			<text> </text>
 			<text>=</text>
@@ -3947,7 +3946,7 @@
 			<text> </text>
 			<text>hull</text>
 		</line>
-		<line linenr="391" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="390" indent="&#160;&#160;&#160;&#160;">
 			<var>$hull</var>
 			<text> </text>
 			<text>=</text>
@@ -3958,7 +3957,7 @@
 			<text> </text>
 			<var>$random</var>
 		</line>
-		<line linenr="392" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="391" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$hull</var>
@@ -3967,7 +3966,7 @@
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="393" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="392" indent="&#160;&#160;&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -3979,10 +3978,10 @@
 			<text> </text>
 			<var>$hull</var>
 		</line>
-		<line linenr="394" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="393" indent="&#160;&#160;&#160;&#160;">
 			<comment>* Record failure</comment>
 		</line>
-		<line linenr="395" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="394" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -3994,7 +3993,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="396" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="395" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -4009,7 +4008,7 @@
 			<text> </text>
 			<var>$result.failure</var>
 		</line>
-		<line linenr="397" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="396" indent="&#160;&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -4020,13 +4019,13 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="398" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="397" indent="&#160;&#160;&#160;&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="399" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="398" indent="&#160;&#160;&#160;&#160;">
 			<comment>* Record success</comment>
 		</line>
-		<line linenr="400" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="399" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -4038,7 +4037,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="401" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="400" indent="&#160;&#160;&#160;&#160;">
 			<var>$line</var>
 			<text> </text>
 			<text>=</text>
@@ -4053,7 +4052,7 @@
 			<text> </text>
 			<var>$result.success</var>
 		</line>
-		<line linenr="402" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="401" indent="&#160;&#160;&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$line</var>
@@ -4064,7 +4063,7 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="403" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="402" indent="&#160;&#160;&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -4086,19 +4085,19 @@
 			<text>=</text>
 			<var>[FALSE]</var>
 		</line>
+		<line linenr="403" indent="&#160;&#160;&#160;&#160;">
+			<text>end</text>
+		</line>
 		<line linenr="404" indent="&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="405" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="405" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="406" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="406" indent="&#160;&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
 		<line linenr="407" indent="&#160;&#160;&#160;&#160;">
-			<text>end</text>
-		</line>
-		<line linenr="408" indent="&#160;&#160;&#160;&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -4109,10 +4108,10 @@
 			<text> </text>
 			<var>5</var>
 		</line>
-		<line linenr="409" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="408" indent="&#160;&#160;&#160;&#160;">
 			<comment>* Steal Ship From Shipyard</comment>
 		</line>
-		<line linenr="410" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="409" indent="&#160;&#160;&#160;&#160;">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -4130,15 +4129,15 @@
 			<text>=</text>
 			<var>117</var>
 		</line>
-		<line linenr="411" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="410" indent="&#160;&#160;&#160;&#160;">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>$target.name</var>
 		</line>
-		<line linenr="412" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="413" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="411" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="412" indent="&#160;&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$target</var>
@@ -4146,7 +4145,7 @@
 			<text> </text>
 			<text>exists</text>
 		</line>
-		<line linenr="414" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="413" indent="&#160;&#160;&#160;&#160;">
 			<var>$pr</var>
 			<text> </text>
 			<text>=</text>
@@ -4164,7 +4163,7 @@
 			<text> </text>
 			<var>$ship.choice</var>
 		</line>
-		<line linenr="415" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="414" indent="&#160;&#160;&#160;&#160;">
 			<var>$st</var>
 			<text> </text>
 			<text>=</text>
@@ -4179,7 +4178,7 @@
 			<text> </text>
 			<var>$ship.choice</var>
 		</line>
-		<line linenr="416" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="415" indent="&#160;&#160;&#160;&#160;">
 			<var>$cl</var>
 			<text> </text>
 			<text>=</text>
@@ -4197,7 +4196,7 @@
 			<text> </text>
 			<var>$st</var>
 		</line>
-		<line linenr="417" indent="&#160;&#160;&#160;">
+		<line linenr="416" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$cl</var>
@@ -4214,7 +4213,7 @@
 			<text> </text>
 			<var>[Huge Ship]</var>
 		</line>
-		<line linenr="418" indent="&#160;&#160;">
+		<line linenr="417" indent="&#160;&#160;">
 			<var>$ship</var>
 			<text> </text>
 			<text>=</text>
@@ -4248,11 +4247,11 @@
 			<text>=</text>
 			<var>-300000</var>
 		</line>
-		<line linenr="419" indent="&#160;&#160;" />
-		<line linenr="420" indent="&#160;">
+		<line linenr="418" indent="&#160;&#160;" />
+		<line linenr="419" indent="&#160;">
 			<text>else</text>
 		</line>
-		<line linenr="421" indent="&#160;&#160;">
+		<line linenr="420" indent="&#160;&#160;">
 			<var>$ship</var>
 			<text> </text>
 			<text>=</text>
@@ -4286,10 +4285,10 @@
 			<text>=</text>
 			<var>0</var>
 		</line>
-		<line linenr="422" indent="&#160;&#160;">
+		<line linenr="421" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="423" indent="&#160;&#160;">
+		<line linenr="422" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$ship</var>
@@ -4297,7 +4296,7 @@
 			<text> </text>
 			<text>exists</text>
 		</line>
-		<line linenr="424" indent="&#160;&#160;">
+		<line linenr="423" indent="&#160;&#160;">
 			<text>do</text>
 			<text> </text>
 			<text>if</text>
@@ -4316,7 +4315,7 @@
 			<text> </text>
 			<var>[Huge Ship]</var>
 		</line>
-		<line linenr="425" indent="&#160;&#160;">
+		<line linenr="424" indent="&#160;&#160;">
 			<text>=</text>
 			<text> </text>
 			<var>$target</var>
@@ -4330,7 +4329,7 @@
 			<text> </text>
 			<var>$ship</var>
 		</line>
-		<line linenr="426" indent="&#160;&#160;">
+		<line linenr="425" indent="&#160;&#160;">
 			<var>$stype</var>
 			<text> </text>
 			<text>=</text>
@@ -4354,7 +4353,7 @@
 			<text> </text>
 			<text>installed</text>
 		</line>
-		<line linenr="427" indent="&#160;&#160;">
+		<line linenr="426" indent="&#160;&#160;">
 			<var>$eng</var>
 			<text> </text>
 			<text>=</text>
@@ -4374,7 +4373,7 @@
 			<text> </text>
 			<var>{Engine Tuning}</var>
 		</line>
-		<line linenr="428" indent="&#160;&#160;">
+		<line linenr="427" indent="&#160;&#160;">
 			<var>$rud</var>
 			<text> </text>
 			<text>=</text>
@@ -4394,8 +4393,8 @@
 			<text> </text>
 			<var>{Rudder Optimisation}</var>
 		</line>
-		<line linenr="429" indent="&#160;&#160;" />
-		<line linenr="430" indent="&#160;&#160;&#160;">
+		<line linenr="428" indent="&#160;&#160;" />
+		<line linenr="429" indent="&#160;&#160;&#160;">
 			<text>=</text>
 			<text> </text>
 			<var>$ship</var>
@@ -4411,7 +4410,7 @@
 			<text> </text>
 			<var>$stype</var>
 		</line>
-		<line linenr="431" indent="&#160;&#160;">
+		<line linenr="430" indent="&#160;&#160;">
 			<text>=</text>
 			<text> </text>
 			<var>$ship</var>
@@ -4427,7 +4426,7 @@
 			<text> </text>
 			<var>{Engine Tuning}</var>
 		</line>
-		<line linenr="432" indent="&#160;&#160;">
+		<line linenr="431" indent="&#160;&#160;">
 			<text>=</text>
 			<text> </text>
 			<var>$ship</var>
@@ -4443,8 +4442,8 @@
 			<text> </text>
 			<var>{Rudder Optimisation}</var>
 		</line>
-		<line linenr="433" indent="&#160;&#160;&#160;" />
-		<line linenr="434" indent="&#160;&#160;" interruptable="@">
+		<line linenr="432" indent="&#160;&#160;&#160;" />
+		<line linenr="433" indent="&#160;&#160;" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -4464,7 +4463,7 @@
 			<text>=</text>
 			<var>$target</var>
 		</line>
-		<line linenr="435" indent="&#160;&#160;">
+		<line linenr="434" indent="&#160;&#160;">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -4474,7 +4473,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="436" indent="&#160;&#160;">
+		<line linenr="435" indent="&#160;&#160;">
 			<var>$station.Vars</var>
 			<text>[</text>
 			<var>$IDX_SUSPICION</var>
@@ -4484,8 +4483,8 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="437" indent="&#160;" />
-		<line linenr="438" indent="&#160;&#160;">
+		<line linenr="436" indent="&#160;" />
+		<line linenr="437" indent="&#160;&#160;">
 			<text>do</text>
 			<text> </text>
 			<text>if</text>
@@ -4497,7 +4496,7 @@
 			<text> </text>
 			<text>docked</text>
 		</line>
-		<line linenr="439" indent="&#160;&#160;" interruptable="@">
+		<line linenr="438" indent="&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>$ship</var>
@@ -4511,8 +4510,8 @@
 			<text> </text>
 			<text>:</text>
 		</line>
-		<line linenr="440" indent="&#160;&#160;" />
-		<line linenr="441" indent="&#160;&#160;" interruptable="@">
+		<line linenr="439" indent="&#160;&#160;" />
+		<line linenr="440" indent="&#160;&#160;" interruptable="@">
 			<text>=</text>
 			<text> </text>
 			<text>wait</text>
@@ -4521,7 +4520,7 @@
 			<text> </text>
 			<text>ms</text>
 		</line>
-		<line linenr="442" indent="&#160;&#160;">
+		<line linenr="441" indent="&#160;&#160;">
 			<var>$target</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -4537,7 +4536,7 @@
 			<text> </text>
 			<var>[Foe]</var>
 		</line>
-		<line linenr="443" indent="&#160;&#160;">
+		<line linenr="442" indent="&#160;&#160;">
 			<var>$changenotoriety</var>
 			<text> </text>
 			<text>=</text>
@@ -4560,7 +4559,7 @@
 			<var>15</var>
 			<text>)</text>
 		</line>
-		<line linenr="444" indent="&#160;&#160;" interruptable="@">
+		<line linenr="443" indent="&#160;&#160;" interruptable="@">
 			<text>START</text>
 			<text> </text>
 			<var>[THIS]</var>
@@ -4586,8 +4585,8 @@
 			<text>=</text>
 			<var>5000</var>
 		</line>
-		<line linenr="445" indent="&#160;&#160;" />
-		<line linenr="446" indent="&#160;&#160;">
+		<line linenr="444" indent="&#160;&#160;" />
+		<line linenr="445" indent="&#160;&#160;">
 			<var>$s</var>
 			<text> </text>
 			<text>=</text>
@@ -4599,7 +4598,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="447" indent="&#160;&#160;&#160;">
+		<line linenr="446" indent="&#160;&#160;&#160;">
 			<var>$choice</var>
 			<text> </text>
 			<text>=</text>
@@ -4630,7 +4629,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="448" indent="&#160;&#160;">
+		<line linenr="447" indent="&#160;&#160;">
 			<var>$msg</var>
 			<text> </text>
 			<text>=</text>
@@ -4645,7 +4644,7 @@
 			<text> </text>
 			<var>$choice</var>
 		</line>
-		<line linenr="449" indent="&#160;&#160;">
+		<line linenr="448" indent="&#160;&#160;">
 			<text>append</text>
 			<text> </text>
 			<var>$msg</var>
@@ -4656,14 +4655,14 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="450" indent="&#160;&#160;&#160;">
+		<line linenr="449" indent="&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="451" indent="&#160;&#160;">
+		<line linenr="450" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="452" indent="&#160;&#160;" />
-		<line linenr="453" indent="&#160;">
+		<line linenr="451" indent="&#160;&#160;" />
+		<line linenr="452" indent="&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -4674,10 +4673,10 @@
 			<text> </text>
 			<var>6</var>
 		</line>
-		<line linenr="454" indent="&#160;&#160;">
+		<line linenr="453" indent="&#160;&#160;">
 			<comment>* Barter Access For: Engine Tunings</comment>
 		</line>
-		<line linenr="455" indent="&#160;&#160;">
+		<line linenr="454" indent="&#160;&#160;">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -4695,7 +4694,7 @@
 			<text>=</text>
 			<var>118</var>
 		</line>
-		<line linenr="456" indent="&#160;&#160;">
+		<line linenr="455" indent="&#160;&#160;">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
@@ -4707,7 +4706,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="457" indent="&#160;&#160;" interruptable="@">
+		<line linenr="456" indent="&#160;&#160;" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -4727,7 +4726,7 @@
 			<text>=</text>
 			<var>$target</var>
 		</line>
-		<line linenr="458" indent="&#160;&#160;">
+		<line linenr="457" indent="&#160;&#160;">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -4737,7 +4736,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="459" indent="&#160;&#160;">
+		<line linenr="458" indent="&#160;&#160;">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -4747,21 +4746,21 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="460" indent="&#160;&#160;">
+		<line linenr="459" indent="&#160;&#160;">
 			<var>$ware</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>{Engine Tuning}</var>
 		</line>
-		<line linenr="461" indent="&#160;&#160;">
+		<line linenr="460" indent="&#160;&#160;">
 			<var>$qty</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="462" indent="&#160;&#160;">
+		<line linenr="461" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$hackerrank</var>
@@ -4770,15 +4769,15 @@
 			<text> </text>
 			<var>2</var>
 		</line>
-		<line linenr="463" indent="&#160;&#160;">
+		<line linenr="462" indent="&#160;&#160;">
 			<text>inc</text>
 			<text> </text>
 			<var>$qty</var>
 		</line>
-		<line linenr="464" indent="&#160;&#160;">
+		<line linenr="463" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="465" indent="&#160;&#160;">
+		<line linenr="464" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.sus</var>
@@ -4787,22 +4786,22 @@
 			<text> </text>
 			<var>10</var>
 		</line>
-		<line linenr="466" indent="&#160;&#160;">
+		<line linenr="465" indent="&#160;&#160;">
 			<text>inc</text>
 			<text> </text>
 			<var>$qty</var>
 		</line>
-		<line linenr="467" indent="&#160;&#160;&#160;">
+		<line linenr="466" indent="&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="468" indent="&#160;&#160;">
+		<line linenr="467" indent="&#160;&#160;">
 			<text>gosub</text>
 			<text> </text>
 			<var>trade_for_ware</var>
 			<text>:</text>
 		</line>
-		<line linenr="469" indent="&#160;&#160;" />
-		<line linenr="470" indent="&#160;">
+		<line linenr="468" indent="&#160;&#160;" />
+		<line linenr="469" indent="&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -4813,10 +4812,10 @@
 			<text> </text>
 			<var>7</var>
 		</line>
-		<line linenr="471" indent="">
+		<line linenr="470" indent="">
 			<comment>* Barter Access For: Rudder Optimization</comment>
 		</line>
-		<line linenr="472" indent="&#160;">
+		<line linenr="471" indent="&#160;">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -4834,7 +4833,7 @@
 			<text>=</text>
 			<var>119</var>
 		</line>
-		<line linenr="473" indent="&#160;">
+		<line linenr="472" indent="&#160;">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
@@ -4846,7 +4845,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="474" indent="" interruptable="@">
+		<line linenr="473" indent="" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -4866,7 +4865,7 @@
 			<text>=</text>
 			<var>$target</var>
 		</line>
-		<line linenr="475" indent="">
+		<line linenr="474" indent="">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -4876,7 +4875,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="476" indent="">
+		<line linenr="475" indent="">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -4886,21 +4885,21 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="477" indent="">
+		<line linenr="476" indent="">
 			<var>$ware</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>{Rudder Optimisation}</var>
 		</line>
-		<line linenr="478" indent="">
+		<line linenr="477" indent="">
 			<var>$qty</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>1</var>
 		</line>
-		<line linenr="479" indent="">
+		<line linenr="478" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$hackerrank</var>
@@ -4909,15 +4908,15 @@
 			<text> </text>
 			<var>2</var>
 		</line>
-		<line linenr="480" indent="">
+		<line linenr="479" indent="">
 			<text>inc</text>
 			<text> </text>
 			<var>$qty</var>
 		</line>
-		<line linenr="481" indent="">
+		<line linenr="480" indent="">
 			<text>end</text>
 		</line>
-		<line linenr="482" indent="">
+		<line linenr="481" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$station.sus</var>
@@ -4926,21 +4925,21 @@
 			<text> </text>
 			<var>10</var>
 		</line>
-		<line linenr="483" indent="&#160;">
+		<line linenr="482" indent="&#160;">
 			<text>inc</text>
 			<text> </text>
 			<var>$qty</var>
 		</line>
-		<line linenr="484" indent="&#160;">
+		<line linenr="483" indent="&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="485" indent="&#160;">
+		<line linenr="484" indent="&#160;">
 			<text>gosub</text>
 			<text> </text>
 			<var>trade_for_ware</var>
 			<text>:</text>
 		</line>
-		<line linenr="486" indent="">
+		<line linenr="485" indent="">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -4951,10 +4950,10 @@
 			<text> </text>
 			<var>8</var>
 		</line>
-		<line linenr="487" indent="">
+		<line linenr="486" indent="">
 			<comment>* Barter Access For: Cargo-bay Shielding</comment>
 		</line>
-		<line linenr="488" indent="">
+		<line linenr="487" indent="">
 			<var>$command.name</var>
 			<text> </text>
 			<text>=</text>
@@ -4972,7 +4971,7 @@
 			<text>=</text>
 			<var>120</var>
 		</line>
-		<line linenr="489" indent="">
+		<line linenr="488" indent="">
 			<var>$command.target</var>
 			<text> </text>
 			<text>=</text>
@@ -4984,7 +4983,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="490" indent="" interruptable="@">
+		<line linenr="489" indent="" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -5004,7 +5003,7 @@
 			<text>=</text>
 			<var>$target</var>
 		</line>
-		<line linenr="491" indent="">
+		<line linenr="490" indent="">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -5014,7 +5013,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="492" indent="">
+		<line linenr="491" indent="">
 			<var>$station.sus</var>
 			<text> </text>
 			<text>=</text>
@@ -5024,7 +5023,7 @@
 			<var>$IDX_SUSPICION</var>
 			<text>]</text>
 		</line>
-		<line linenr="493" indent="">
+		<line linenr="492" indent="">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -5034,21 +5033,21 @@
 			<var>$IDX_ENDRAND</var>
 			<text>]</text>
 		</line>
-		<line linenr="494" indent="">
+		<line linenr="493" indent="">
 			<var>$ware</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>{Cargo Bay Shielding}</var>
 		</line>
-		<line linenr="495" indent="&#160;">
+		<line linenr="494" indent="&#160;">
 			<var>$qty_min</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>3</var>
 		</line>
-		<line linenr="496" indent="&#160;&#160;">
+		<line linenr="495" indent="&#160;&#160;">
 			<var>$qty_max</var>
 			<text> </text>
 			<text>=</text>
@@ -5063,7 +5062,7 @@
 			<text> </text>
 			<var>5</var>
 		</line>
-		<line linenr="497" indent="&#160;&#160;&#160;">
+		<line linenr="496" indent="&#160;&#160;&#160;">
 			<var>$station.rand</var>
 			<text> </text>
 			<text>=</text>
@@ -5074,7 +5073,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="498" indent="&#160;&#160;&#160;">
+		<line linenr="497" indent="&#160;&#160;&#160;">
 			<var>$qty</var>
 			<text> </text>
 			<text>=</text>
@@ -5101,7 +5100,7 @@
 			<var>100</var>
 			<text>)</text>
 		</line>
-		<line linenr="499" indent="&#160;&#160;&#160;">
+		<line linenr="498" indent="&#160;&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$station.sus</var>
@@ -5110,7 +5109,7 @@
 			<text> </text>
 			<var>20</var>
 		</line>
-		<line linenr="500" indent="&#160;&#160;&#160;">
+		<line linenr="499" indent="&#160;&#160;&#160;">
 			<var>$qty</var>
 			<text> </text>
 			<text>=</text>
@@ -5121,47 +5120,47 @@
 			<text> </text>
 			<var>2</var>
 		</line>
-		<line linenr="501" indent="&#160;&#160;&#160;">
+		<line linenr="500" indent="&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="502" indent="&#160;&#160;">
+		<line linenr="501" indent="&#160;&#160;">
 			<text>gosub</text>
 			<text> </text>
 			<var>trade_for_ware</var>
 			<text>:</text>
 		</line>
-		<line linenr="503" indent="&#160;">
+		<line linenr="502" indent="&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="504" indent="">
+		<line linenr="503" indent="">
 			<text>else</text>
 		</line>
-		<line linenr="505" indent="">
+		<line linenr="504" indent="">
 			<text>gosub</text>
 			<text> </text>
 			<var>cleanup</var>
 			<text>:</text>
 		</line>
-		<line linenr="506" indent="">
+		<line linenr="505" indent="">
 			<text>return</text>
 			<text> </text>
 			<var>[FALSE]</var>
 		</line>
-		<line linenr="507" indent="&#160;">
+		<line linenr="506" indent="&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="508" indent="&#160;" />
-		<line linenr="509" indent="&#160;">
+		<line linenr="507" indent="&#160;" />
+		<line linenr="508" indent="&#160;">
 			<comment>* Generate report</comment>
 		</line>
-		<line linenr="510" indent="&#160;">
+		<line linenr="509" indent="&#160;">
 			<var>$idx</var>
 			<text> </text>
 			<text>=</text>
 			<text> </text>
 			<var>0</var>
 		</line>
-		<line linenr="511" indent="&#160;">
+		<line linenr="510" indent="&#160;">
 			<var>$max</var>
 			<text> </text>
 			<text>=</text>
@@ -5174,7 +5173,7 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="512" indent="&#160;">
+		<line linenr="511" indent="&#160;">
 			<var>$lines</var>
 			<text> </text>
 			<text>=</text>
@@ -5205,7 +5204,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="513" indent="&#160;">
+		<line linenr="512" indent="&#160;">
 			<var>$nl</var>
 			<text> </text>
 			<text>=</text>
@@ -5223,7 +5222,7 @@
 			<text>=</text>
 			<var>115</var>
 		</line>
-		<line linenr="514" indent="&#160;">
+		<line linenr="513" indent="&#160;">
 			<var>$lines</var>
 			<text> </text>
 			<text>=</text>
@@ -5238,7 +5237,7 @@
 			<text> </text>
 			<var>$nl</var>
 		</line>
-		<line linenr="515" indent="&#160;">
+		<line linenr="514" indent="&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$idx</var>
@@ -5247,7 +5246,7 @@
 			<text> </text>
 			<var>$max</var>
 		</line>
-		<line linenr="516" indent="&#160;">
+		<line linenr="515" indent="&#160;">
 			<var>$entry</var>
 			<text> </text>
 			<text>=</text>
@@ -5257,12 +5256,12 @@
 			<var>$idx</var>
 			<text>]</text>
 		</line>
-		<line linenr="517" indent="&#160;">
+		<line linenr="516" indent="&#160;">
 			<text>inc</text>
 			<text> </text>
 			<var>$idx</var>
 		</line>
-		<line linenr="518" indent="&#160;">
+		<line linenr="517" indent="&#160;">
 			<var>$lines</var>
 			<text> </text>
 			<text>=</text>
@@ -5277,11 +5276,11 @@
 			<text> </text>
 			<var>$nl</var>
 		</line>
-		<line linenr="519" indent="&#160;&#160;">
+		<line linenr="518" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="520" indent="&#160;&#160;" />
-		<line linenr="521" indent="&#160;&#160;&#160;">
+		<line linenr="519" indent="&#160;&#160;" />
+		<line linenr="520" indent="&#160;&#160;&#160;">
 			<var>[THIS]</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5300,25 +5299,25 @@
 			<text>=</text>
 			<var>[FALSE]</var>
 		</line>
-		<line linenr="522" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="523" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="521" indent="&#160;&#160;&#160;&#160;" />
+		<line linenr="522" indent="&#160;&#160;&#160;&#160;">
 			<text>gosub</text>
 			<text> </text>
 			<var>cleanup</var>
 			<text>:</text>
 		</line>
-		<line linenr="524" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="523" indent="&#160;&#160;&#160;&#160;">
 			<text>return</text>
 			<text> </text>
 			<var>[TRUE]</var>
 		</line>
+		<line linenr="524" indent="&#160;&#160;&#160;&#160;" />
 		<line linenr="525" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="526" indent="&#160;&#160;&#160;&#160;" />
-		<line linenr="527" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="526" indent="&#160;&#160;&#160;&#160;&#160;">
 			<var>cleanup</var>
 			<text>:</text>
 		</line>
-		<line linenr="528" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="527" indent="&#160;&#160;&#160;&#160;">
 			<var>$XS.Iterator6</var>
 			<text> </text>
 			<text>=</text>
@@ -5331,17 +5330,17 @@
 			<text> </text>
 			<var>$locked.list</var>
 		</line>
-		<line linenr="529" indent="&#160;&#160;&#160;&#160;&#160;">
+		<line linenr="528" indent="&#160;&#160;&#160;&#160;&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator6</var>
 		</line>
-		<line linenr="530" indent="&#160;&#160;&#160;&#160;">
+		<line linenr="529" indent="&#160;&#160;&#160;&#160;">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator6</var>
 		</line>
-		<line linenr="531" indent="&#160;&#160;&#160;">
+		<line linenr="530" indent="&#160;&#160;&#160;">
 			<var>$l</var>
 			<text> </text>
 			<text>=</text>
@@ -5351,7 +5350,7 @@
 			<var>$XS.Iterator6</var>
 			<text>]</text>
 		</line>
-		<line linenr="532" indent="&#160;&#160;">
+		<line linenr="531" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<var>$l</var>
@@ -5359,7 +5358,7 @@
 			<text> </text>
 			<text>exists</text>
 		</line>
-		<line linenr="533" indent="&#160;" interruptable="@">
+		<line linenr="532" indent="&#160;" interruptable="@">
 			<var>$l.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -5379,7 +5378,7 @@
 			<text>=</text>
 			<var>$l</var>
 		</line>
-		<line linenr="534" indent="&#160;">
+		<line linenr="533" indent="&#160;">
 			<var>$l.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -5389,7 +5388,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="535" indent="&#160;">
+		<line linenr="534" indent="&#160;">
 			<var>$l.Vars</var>
 			<text>[</text>
 			<var>$IDX_INPROGRESS</var>
@@ -5399,30 +5398,30 @@
 			<text> </text>
 			<var>[FALSE]</var>
 		</line>
-		<line linenr="536" indent="&#160;">
+		<line linenr="535" indent="&#160;">
 			<comment>* Couldn't get this feature to work.</comment>
 		</line>
-		<line linenr="537" indent="&#160;&#160;">
+		<line linenr="536" indent="&#160;&#160;">
 			<comment>* $l-&gt; remove secondary signal: signal=[SIGNAL_SELWARE], name='zanzal.PwnMi.signalsellware'</comment>
 		</line>
-		<line linenr="538" indent="&#160;&#160;">
+		<line linenr="537" indent="&#160;&#160;">
+			<text>end</text>
+		</line>
+		<line linenr="538" indent="&#160;&#160;&#160;">
 			<text>end</text>
 		</line>
 		<line linenr="539" indent="&#160;&#160;&#160;">
-			<text>end</text>
-		</line>
-		<line linenr="540" indent="&#160;&#160;&#160;">
 			<text>endsub</text>
 		</line>
-		<line linenr="541" indent="&#160;&#160;&#160;" />
-		<line linenr="542" indent="&#160;&#160;">
+		<line linenr="540" indent="&#160;&#160;&#160;" />
+		<line linenr="541" indent="&#160;&#160;">
 			<var>claim_station</var>
 			<text>:</text>
 		</line>
-		<line linenr="543" indent="&#160;&#160;&#160;">
+		<line linenr="542" indent="&#160;&#160;&#160;">
 			<comment>* Transfer ownership of $station</comment>
 		</line>
-		<line linenr="544" indent="&#160;&#160;&#160;">
+		<line linenr="543" indent="&#160;&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5441,7 +5440,7 @@
 			<text>=</text>
 			<var>null</var>
 		</line>
-		<line linenr="545" indent="&#160;&#160;&#160;">
+		<line linenr="544" indent="&#160;&#160;&#160;">
 			<var>$station.ships</var>
 			<text> </text>
 			<text>=</text>
@@ -5462,7 +5461,7 @@
 			<text>=</text>
 			<var>null</var>
 		</line>
-		<line linenr="546" indent="&#160;&#160;">
+		<line linenr="545" indent="&#160;&#160;">
 			<var>$station.race</var>
 			<text> </text>
 			<text>=</text>
@@ -5476,7 +5475,7 @@
 			<text> </text>
 			<text>race</text>
 		</line>
-		<line linenr="547" indent="&#160;">
+		<line linenr="546" indent="&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5490,7 +5489,7 @@
 			<text> </text>
 			<var>[Player]</var>
 		</line>
-		<line linenr="548" indent="&#160;">
+		<line linenr="547" indent="&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5508,7 +5507,7 @@
 			<text> </text>
 			<var>[FALSE]</var>
 		</line>
-		<line linenr="549" indent="&#160;">
+		<line linenr="548" indent="&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5524,7 +5523,7 @@
 			<text> </text>
 			<var>[Friend]</var>
 		</line>
-		<line linenr="550" indent="&#160;">
+		<line linenr="549" indent="&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5540,11 +5539,11 @@
 			<text> </text>
 			<var>[Foe]</var>
 		</line>
-		<line linenr="551" indent="" />
-		<line linenr="552" indent="">
+		<line linenr="550" indent="" />
+		<line linenr="551" indent="">
 			<comment>* Need to clean the station of wares</comment>
 		</line>
-		<line linenr="553" indent="">
+		<line linenr="552" indent="">
 			<var>$wares</var>
 			<text> </text>
 			<text>=</text>
@@ -5564,7 +5563,7 @@
 			<text> </text>
 			<text>station</text>
 		</line>
-		<line linenr="554" indent="">
+		<line linenr="553" indent="">
 			<var>$XS.Iterator7</var>
 			<text> </text>
 			<text>=</text>
@@ -5577,17 +5576,17 @@
 			<text> </text>
 			<var>$wares</var>
 		</line>
-		<line linenr="555" indent="&#160;">
+		<line linenr="554" indent="&#160;">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator7</var>
 		</line>
-		<line linenr="556" indent="&#160;&#160;">
+		<line linenr="555" indent="&#160;&#160;">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator7</var>
 		</line>
-		<line linenr="557" indent="&#160;&#160;">
+		<line linenr="556" indent="&#160;&#160;">
 			<var>$ware</var>
 			<text> </text>
 			<text>=</text>
@@ -5597,7 +5596,7 @@
 			<var>$XS.Iterator7</var>
 			<text>]</text>
 		</line>
-		<line linenr="558" indent="&#160;&#160;">
+		<line linenr="557" indent="&#160;&#160;">
 			<var>$ware.count</var>
 			<text> </text>
 			<text>=</text>
@@ -5621,7 +5620,7 @@
 			<text> </text>
 			<text>bay</text>
 		</line>
-		<line linenr="559" indent="&#160;&#160;">
+		<line linenr="558" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<text>not</text>
@@ -5641,7 +5640,7 @@
 			<text> </text>
 			<text>resource</text>
 		</line>
-		<line linenr="560" indent="&#160;&#160;">
+		<line linenr="559" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<text>not</text>
@@ -5661,7 +5660,7 @@
 			<text> </text>
 			<text>resource</text>
 		</line>
-		<line linenr="561" indent="&#160;&#160;">
+		<line linenr="560" indent="&#160;&#160;">
 			<var>$ware.count</var>
 			<text> </text>
 			<text>=</text>
@@ -5672,7 +5671,7 @@
 			<text> </text>
 			<var>$ware.count</var>
 		</line>
-		<line linenr="562" indent="&#160;&#160;">
+		<line linenr="561" indent="&#160;&#160;">
 			<text>=</text>
 			<text> </text>
 			<var>$station</var>
@@ -5688,11 +5687,11 @@
 			<text> </text>
 			<var>$ware</var>
 		</line>
-		<line linenr="563" indent="&#160;&#160;" />
-		<line linenr="564" indent="&#160;&#160;">
+		<line linenr="562" indent="&#160;&#160;" />
+		<line linenr="563" indent="&#160;&#160;">
 			<comment>* Purge EQ docks of tunings and software</comment>
 		</line>
-		<line linenr="565" indent="&#160;&#160;">
+		<line linenr="564" indent="&#160;&#160;">
 			<text>if</text>
 			<text> </text>
 			<text>is</text>
@@ -5704,7 +5703,7 @@
 			<text>=</text>
 			<var>$ware</var>
 		</line>
-		<line linenr="566" indent="&#160;&#160;">
+		<line linenr="565" indent="&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5723,7 +5722,7 @@
 			<text> </text>
 			<var>$ware</var>
 		</line>
-		<line linenr="567" indent="&#160;&#160;">
+		<line linenr="566" indent="&#160;&#160;">
 			<text>else</text>
 			<text> </text>
 			<text>if</text>
@@ -5737,7 +5736,7 @@
 			<text>=</text>
 			<var>$ware</var>
 		</line>
-		<line linenr="568" indent="&#160;&#160;">
+		<line linenr="567" indent="&#160;&#160;">
 			<var>$station</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5756,23 +5755,23 @@
 			<text> </text>
 			<var>$ware</var>
 		</line>
-		<line linenr="569" indent="&#160;">
+		<line linenr="568" indent="&#160;">
+			<text>end</text>
+		</line>
+		<line linenr="569" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
 		<line linenr="570" indent="&#160;&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="571" indent="&#160;&#160;">
+		<line linenr="571" indent="&#160;">
 			<text>end</text>
 		</line>
-		<line linenr="572" indent="&#160;">
-			<text>end</text>
-		</line>
-		<line linenr="573" indent="" />
-		<line linenr="574" indent="">
+		<line linenr="572" indent="" />
+		<line linenr="573" indent="">
 			<comment>* Handle owned ships</comment>
 		</line>
-		<line linenr="575" indent="">
+		<line linenr="574" indent="">
 			<var>$XS.Iterator8</var>
 			<text> </text>
 			<text>=</text>
@@ -5785,17 +5784,17 @@
 			<text> </text>
 			<var>$station.ships</var>
 		</line>
-		<line linenr="576" indent="">
+		<line linenr="575" indent="">
 			<text>while</text>
 			<text> </text>
 			<var>$XS.Iterator8</var>
 		</line>
-		<line linenr="577" indent="">
+		<line linenr="576" indent="">
 			<text>dec</text>
 			<text> </text>
 			<var>$XS.Iterator8</var>
 		</line>
-		<line linenr="578" indent="">
+		<line linenr="577" indent="">
 			<var>$ship</var>
 			<text> </text>
 			<text>=</text>
@@ -5805,7 +5804,7 @@
 			<var>$XS.Iterator8</var>
 			<text>]</text>
 		</line>
-		<line linenr="579" indent="">
+		<line linenr="578" indent="">
 			<var>$ship.class</var>
 			<text> </text>
 			<text>=</text>
@@ -5819,7 +5818,7 @@
 			<text> </text>
 			<text>class</text>
 		</line>
-		<line linenr="580" indent="">
+		<line linenr="579" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$ship.class</var>
@@ -5836,7 +5835,7 @@
 			<text> </text>
 			<var>{Terran Lasertower (SH_TR_TURRET)}</var>
 		</line>
-		<line linenr="581" indent="">
+		<line linenr="580" indent="">
 			<var>$ship</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5850,7 +5849,7 @@
 			<text> </text>
 			<var>[Player]</var>
 		</line>
-		<line linenr="582" indent="">
+		<line linenr="581" indent="">
 			<var>$ship</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5866,7 +5865,7 @@
 			<text> </text>
 			<var>[Friend]</var>
 		</line>
-		<line linenr="583" indent="">
+		<line linenr="582" indent="">
 			<var>$ship</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5882,10 +5881,10 @@
 			<text> </text>
 			<var>[Foe]</var>
 		</line>
-		<line linenr="584" indent="">
+		<line linenr="583" indent="">
 			<text>else</text>
 		</line>
-		<line linenr="585" indent="">
+		<line linenr="584" indent="">
 			<var>$ship</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5897,7 +5896,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="586" indent="">
+		<line linenr="585" indent="">
 			<var>$ship</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5909,7 +5908,7 @@
 			<text> </text>
 			<var>$target.sector</var>
 		</line>
-		<line linenr="587" indent="">
+		<line linenr="586" indent="">
 			<var>$ship</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -5925,29 +5924,29 @@
 			<text> </text>
 			<var>[Foe]</var>
 		</line>
+		<line linenr="587" indent="">
+			<text>end</text>
+		</line>
 		<line linenr="588" indent="">
 			<text>end</text>
 		</line>
-		<line linenr="589" indent="">
-			<text>end</text>
-		</line>
-		<line linenr="590" indent="" />
-		<line linenr="591" indent="">
+		<line linenr="589" indent="" />
+		<line linenr="590" indent="">
 			<comment>* $station -&gt; add default wares to station/dock</comment>
 		</line>
-		<line linenr="592" indent="" />
-		<line linenr="593" indent="">
+		<line linenr="591" indent="" />
+		<line linenr="592" indent="">
 			<text>endsub</text>
 		</line>
-		<line linenr="594" indent="" />
-		<line linenr="595" indent="">
+		<line linenr="593" indent="" />
+		<line linenr="594" indent="">
 			<comment>* Needs $ware and $qty</comment>
 		</line>
-		<line linenr="596" indent="">
+		<line linenr="595" indent="">
 			<var>trade_for_ware</var>
 			<text>:</text>
 		</line>
-		<line linenr="597" indent="">
+		<line linenr="596" indent="">
 			<text>if</text>
 			<text> </text>
 			<var>$target</var>
@@ -5955,7 +5954,7 @@
 			<text> </text>
 			<text>exists</text>
 		</line>
-		<line linenr="598" indent="" interruptable="@">
+		<line linenr="597" indent="" interruptable="@">
 			<var>$station.vars.ex</var>
 			<text> </text>
 			<text>=</text>
@@ -5975,7 +5974,7 @@
 			<text>=</text>
 			<var>$target</var>
 		</line>
-		<line linenr="599" indent="">
+		<line linenr="598" indent="">
 			<var>$station.Vars</var>
 			<text> </text>
 			<text>=</text>
@@ -5985,7 +5984,7 @@
 			<var>0</var>
 			<text>]</text>
 		</line>
-		<line linenr="600" indent="">
+		<line linenr="599" indent="">
 			<var>$station.Vars</var>
 			<text>[</text>
 			<var>$IDX_SUSPICION</var>
@@ -5995,7 +5994,7 @@
 			<text> </text>
 			<var>100</var>
 		</line>
-		<line linenr="601" indent="">
+		<line linenr="600" indent="">
 			<var>$y</var>
 			<text> </text>
 			<text>=</text>
@@ -6012,7 +6011,7 @@
 			<text> </text>
 			<var>80000</var>
 		</line>
-		<line linenr="602" indent="">
+		<line linenr="601" indent="">
 			<var>$x</var>
 			<text> </text>
 			<text>=</text>
@@ -6029,7 +6028,7 @@
 			<text> </text>
 			<var>80000</var>
 		</line>
-		<line linenr="603" indent="">
+		<line linenr="602" indent="">
 			<var>$sub</var>
 			<text> </text>
 			<text>=</text>
@@ -6044,7 +6043,7 @@
 			<text> </text>
 			<var>$ware</var>
 		</line>
-		<line linenr="604" indent="">
+		<line linenr="603" indent="">
 			<var>$main</var>
 			<text> </text>
 			<text>=</text>
@@ -6059,7 +6058,7 @@
 			<text> </text>
 			<var>$ware</var>
 		</line>
-		<line linenr="605" indent="">
+		<line linenr="604" indent="">
 			<var>$ware</var>
 			<text> </text>
 			<text>=</text>
@@ -6103,7 +6102,7 @@
 			<text>=</text>
 			<var>[FALSE]</var>
 		</line>
-		<line linenr="606" indent="">
+		<line linenr="605" indent="">
 			<var>$sat</var>
 			<text> </text>
 			<text>=</text>
@@ -6137,7 +6136,7 @@
 			<text>=</text>
 			<var>101000</var>
 		</line>
-		<line linenr="607" indent="">
+		<line linenr="606" indent="">
 			<var>$sat</var>
 			<text>-&gt;</text>
 			<text> </text>
@@ -6149,7 +6148,7 @@
 			<text> </text>
 			<text>'Your goods'</text>
 		</line>
-		<line linenr="608" indent="">
+		<line linenr="607" indent="">
 			<var>$target.sector.name</var>
 			<text> </text>
 			<text>=</text>
@@ -6161,7 +6160,7 @@
 			<text> </text>
 			<text>name</text>
 		</line>
-		<line linenr="609" indent="">
+		<line linenr="608" indent="">
 			<var>$msg</var>
 			<text> </text>
 			<text>=</text>
@@ -6192,7 +6191,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="610" indent="">
+		<line linenr="609" indent="">
 			<text>append</text>
 			<text> </text>
 			<var>$msg</var>
@@ -6203,10 +6202,10 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="611" indent="">
+		<line linenr="610" indent="">
 			<text>else</text>
 		</line>
-		<line linenr="612" indent="">
+		<line linenr="611" indent="">
 			<var>$msg</var>
 			<text> </text>
 			<text>=</text>
@@ -6237,7 +6236,7 @@
 			<text> </text>
 			<var>null</var>
 		</line>
-		<line linenr="613" indent="">
+		<line linenr="612" indent="">
 			<text>append</text>
 			<text> </text>
 			<var>$msg</var>
@@ -6248,10 +6247,10 @@
 			<text> </text>
 			<var>$result.messages</var>
 		</line>
-		<line linenr="614" indent="">
+		<line linenr="613" indent="">
 			<text>end</text>
 		</line>
-		<line linenr="615" indent="">
+		<line linenr="614" indent="">
 			<text>endsub</text>
 		</line>
 	</sourcetext>
@@ -6379,7 +6378,7 @@
 					<sval type="int" val="1" />
 					<sval type="int" val="1" />
 					<sval type="int" val="4" />
-					<sval type="int" val="1337" />
+					<sval type="int" val="8102" />
 					<sval type="int" val="1" />
 					<sval type="int" val="-1" />
 				</sval>
@@ -10888,7 +10887,7 @@
 					<sval type="string" val="" />
 				</sval>
 			</sval>
-			<sval type="array" size="184">
+			<sval type="array" size="183">
 				<sval type="array" size="3">
 					<sval type="int" val="0" />
 					<sval type="int" val="1" />
@@ -10928,10 +10927,6 @@
 					<sval type="int" val="0" />
 					<sval type="int" val="1" />
 					<sval type="string" val="************************************************" />
-				</sval>
-				<sval type="array" size="2">
-					<sval type="int" val="0" />
-					<sval type="int" val="2" />
 				</sval>
 				<sval type="array" size="2">
 					<sval type="int" val="1" />
