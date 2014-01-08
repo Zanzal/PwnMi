@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated using X-Studio -->
+<project version="1">
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\al.plugin.zanzal.PwnMi.main.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.commscript.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.checkobjectinrange.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.report.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.basic.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.proxy.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.codesign.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.cnc.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.root.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.getstationvars.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.attack.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.gain.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.stdtargetmenu.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.rexec.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.notorietyhit.xml</document>
+	<document type="script">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\scripts\plugin.zanzal.PwnMi.hotkey.xml</document>
+	<document type="language">C:\Program Files (x86)\Steam\steamapps\common\x3 terran conflict\addon\t\8102-L044.xml</document>
+</project>
